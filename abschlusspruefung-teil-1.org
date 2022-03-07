@@ -1,0 +1,266 @@
+* Teil 1 der gestreckten Abschlussprüfung "Einrichten eines IT-gestützten Arbeitsplatz"
+** Projektmanagment
+*** Grundlagen
+Ein Projekt ist ein einmaliges Vorhaben mit einem definiertem Ziel über einen festgelegten Zeitraum.
+
+Dieses Ziel sollte nach den *SMART*-Kriterien definiert werden:
++ *S* Spezifisch  :: Eindeutig und Konkret, sodass alle im  Projektteam das gleiche Ziel vor Augen haben
++ *M* Messbar     :: Es ist feststellbar, ob das Ziel erreicht wurde
++ *A* Akzeptiert  :: Das Ziel wurde vom Projektteam als erstrebenswert bewertet
++ *R* Realistisch :: Das Ziel wurde vom Projektteam als erreichbar bewertet
++ *T* Terminiert  :: Das Ziel muss bis zu einem bestimmten Zeitpunkt erreicht werden
+
+Die drei wichtigsten Kenngrößen für ein Projekt sind Kosten, Zeit und Qualität. Diese sind voneinander Abhängig und bilden so das "Magische Dreieck". Reduziere ich die Zeit, so reduziere ich auch die Qualität oder die Kosten. 
+
+An einem Projekt sind oft zwei oder mehr Parteien beteiligt, welche untereinander und an das Projekt verschidene Ansprüche haben. Diese werden Stakeholder genannt. Stakeholder sind:
++ Unternehmensleitung
++ Projektleitung
++ Projektmitarbeiter/Arbeitnehmer
++ Kunden
++ Dienstleister & Lieferanten
++ Staatliche Institutionen
+
+Projekte lassen sich in 4 Phasen einteilen:
+1. Projektdefinition   :: In der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* festgelegt.  
+2. Projektplanung      :: In der Projektplanung wird der zeitliche Ablauf des Projekt mittels eines *Gantt-Diagramm* auf die Deadline ausgerichtet.
+3. Projektdurchführung :: In der Projektdurchführung werden die einzelene Arbeitsschritte ausgeführt. Die erreichten Zwischenergebnisse werden *Meilensteine* genannt.
+4. Projektabschluss    :: Zum Projektabschluss wird das Gesamtergebniss in einem *Abschlussbericht* dokumentiert.
+
+Während der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* festgelegt. Die Machbarkeitsstudie ist eine Umfangreiche Studie, welche das Projekt aus technischer und wirtschaftlicher untersucht und die verschidenen Perspektiven der Projektteilnehmer betrachtet. Die Stakeholderanalyse und die Risikoanalyse sind Bestandteil der Machbarkeitsstudie.
++ Stakeholderanalyse :: Zeigt die Erwartungen der einzelnen Projektbeteiligten und identifiziert Probleme wie z.B. gegenläufige Ziele
++ Risikoanalyse :: Die Risikoanalyse identifiziert Probleme, die während eins Projekts auftreten können.
+
+Während des Projekt ist es wichtig die Stakeholder und Risiken zu verwalten. Beim Stakeholder-Managment werden die werden die Stakeholder regelmäßig analysiert und die erwartungen dokumentiert. 
+
+Das Risikomanagement befasst sich mit folgenden Schritten:
+1. Identifikation :: Beschreibung ihrer Art und ihrer Ursachen.
+2. Analyse :: Eintrittswahrscheinlichkeit und Auswirkungen.
+3. Priorisierung :: Aufgrundlage der Analyse die werden die Risiken nach vorgegebenen Kriterien bewertet.
+4. Bewältigung :: Maßnahmen um die Eintrittswahrscheinlichkeit oder die Auswirkungen zu minimieren.
+5. Überwachung :: Überwachung der Eintrittswahrscheinlichkeit.
+
+*** Netzplan
+Im Netzplan werden alle Vorgänge eines Projekts nach ihren Abhängigkeiten und Reihenfolgen verkettet und grafisch dargestellt. Er stellt einen ersten Entwurf eines Ablaufplans dar und gibt Informationen darüber, wie Vorgänge verschoben werden können. Zudem können zeitkritische Vorgänge identifiziert werden und als kritische Pfad markiert werden.
+Im Netzplan gibt es folgende Objekte:
++ Vorgangskonten
+    - Vorgangsbezeichner oder Vorgangsnummer
+    - D :: Vorgangsdauer
+    - FAZ :: frühester Anfangszeitpunkt
+    - FEZ :: frühester Endzeitpunkt (FEZ = FAZ + D)
+    - SAZ :: spätester Anfangszeitpunkt (SAZ = SEZ - D)
+    - SEZ :: spätester Endzeitpunkt 
+    - GP :: Gesamtpuffer beschreibt, wie weit ein Vorgang verschoben oder verlängert werden kann, ohne das es Einfluss auf das Projektende hat. (GP =  SEZ - FEZ)
+    - FP :: freier Puffer beschreibt, wie weit ein Vorgang verschoben oder verlängert werden kann, ohne das es Einfluss auf die benachbarten Vorgänge hat. (FP = FAZ nachfolger - FEZ Vorgänger)
+    - kritische Pfad :: Der Kritische Pfad beschreibt alle Knoten, bei den eine Verzögerung direkten Einfluss auf das Projektende hat. Jeder Vorgang mit einem Gesamtpuffer von 0 liegt auf dem kritischen Pfad. Diese Vorgänge bestimme die Gesamtprojektdauer.
++ Anordnungsbeziehungen
+
+Erstellen eines Netzplan:
+1. Erstellen einer Vorgangsliste
+    + Vorgänge nach Reihenfolge nummerieren
+    + Vorgängen ihre direkten Vorgänger zuordnen
+    + Vorgänge aufsteigend nach Vorgangsnummer sortieren
+1. Aktionen als Vorgangskonten darstellen. Bezeichner und Dauer eintragen
+2. Vorgangsknoten mit Anordnungsbeziehungen verknüpfen. Jede Anordnungsbeziehung ist eine eigene Linie
+3. Vorwärtsterminierung:
+    + Erster Knoten bekommt einen FAZ von 0
+    + FEZ = FZA + D
+    + FZA der Nachfolger bestimmen: max(FEZ Vorgänger)
+4. Rückwärtsterminierung:
+    + Beim letzten Knoten die FEZ als SEZ setzen
+    + SAZ = SEZ - D
+    + SEZ der Vorgänger bestimmen: min(SAZ Nachfolger)
+5. Pufferzeiten berechnen
+    + GP = SEZ - FEZ
+    + FP = FAZ Nachfolger - FEZ Vorgänger
+6. Kritischer Pfad markieren. Alle Knoten mit einem GP von 0 bilden den Kritischen Pfad
+
+Im Netzplan gibt es keine genaue zeitliche Einordnung.
+
+Der Nachteil des Netzplan ist, das er nicht Intuitiv zu lesen und zu verstehen ist. Als Gantt-Diagramm ist die Darstellung intuitiver zu verstehen.
+*** Gantt-Diagramm
+Im Gantt-Diagramm werden alle Vorgänge eines Projekts nach ihren Abhängigkeiten und Reihenfolgen verkettet und grafisch dargestellt. Er stellt einen weiteren Entwurf eines Ablaufplans dar und gibt Informationen darüber, wie Vorgänge verschoben werden können. Zudem können zeitkritische Vorgänge identifiziert werden und als kritische Pfad markiert werden. Zu guter letzt ermöglicht das Gantt-Diagramm die Kalendrierung durch das festlegen eines Startzeitpunktes. Gibt es einen Netzplan, so kann dieser sehr leicht als Gantt-Diagramm dargestellt werden.
+
+Erstellen eines Gantt-Diagramm
+1. Erstellen einer Vorgangsliste
+    + Vorgänge nach Reihenfolge nummerieren
+    + Vorgängen ihre direkten Vorgänger zuordnen
+    + Vorgänge aufsteigend nach Vorgangsnummer sortieren
+[[https://www.youtube.com/watch?v=EVDuXXzl4ZY]]
+
+
+*** Wasserfallmodelle
+Das Wasserfallmodell ist ein lineares Vorgehensmodel für die durchführung von Projekten. In einem Top-Down Ansatz wird das Projekt von einem von einem abstrakten Startpunkt zu einem konkreten Ziel gebracht. Dafür wird das Projekt in verschidene Phasen eingeteilt:
+1. Planung (Lastenheft & Projektplan) :: Der Auftraggeber definiert, unter möglicher einbeziehung des Auftragnehmers, die Anforderungen ( *Was & Wofür* ) an die Software und die zeitliche Entwicklung und die Meilensteine des Projekts
+2. Definition (Pflichtenheft) :: Der Auftragnehmer definiert in konkreter Form, *wie & womit* er die Anforderungen im Pflichtenheft umsetzen wird.
+3. Design (Softwarearchitektur) :: Der Auftragnehmer erstellt Struktogramme, die die Softwarearchitektur beschreiben.
+4. Implementierung (Programmierung & Modultests) :: Der Auftragnehmer erstellt die Software
+5. Test (Testprotokoll) :: Der Auftragnehmer teste, gegebenenfalls in Zusammnenarbeit mit dem Auftraggeber, die Software
+6. Einsatz & Wartung (Abnahmeprotokoll & Servicerequests) :: Der Auftragnehmer nimmt die Software in Betrieb. Im Laufe der Betriebszeit gefundene Fehler werden gemeldet und behoben.
+
+Vorteile:
++ Klare Abgrenzungen der Phasen
++ Einfache Planung und Kontrolle
++ Klare Abschätzung von Kosten und Umfang bei stabilen Anforderungen
+
+Nachteile:
++ Unflexibel bei Änderngen der Anforderungen
++ Fehler die in einer frühen Phase gemacht wurden, können unentdeckt bleiben und können so nur unter hohm aufwand entfernt werden.
++ Phasen laufen theoretisch nacheinander ab, Rückschritte sind in der Entwicklung aber unvermeidbar
+
+*** Agile Softwareentwicklung
+Die agile Softwareentwicklung orientiert sich am agilen Manifest, welches 2001 von 17 Informatikern verfasst wurde. Das Manifest formuliert vier Leitsätze und zwölf Prinzipen für die Softwareentwicklung.
+
+#+BEGIN_QUOTE
+„Wir erschließen bessere Wege, Software zu entwickeln, indem wir es selbst tun und anderen dabei helfen. Durch diese Tätigkeit haben wir diese Werte zu schätzen gelernt:
++ *Individuen und Interaktionen* sind wichtiger als Prozesse und Werkzeuge
++ *Funktionierende Software* ist wichtiger als umfassende Dokumentationen
++ *Zusammenarbeit mit dem Kunden* ist wichtiger als Vertragsverhandlungen
++ *Reagieren auf Veränderung* ist wichtiger als das Befolgen eines Plans
+Das heißt, obwohl wir die Werte auf der rechten Seite wichtig finden, schätzen wir die Werte auf der linken Seite höher ein.“
+#+END_QUOTE
+
+Die Prinzipien lauten:
++ Unsere höchste Priorität ist es, den Kunden durch frühe und kontinuierliche Auslieferung wertvoller Software zufrieden zu stellen.
++ Heiße Anforderungsänderungen selbst spät in der Entwicklung willkommen. Agile Prozesse nutzen Veränderungen zum Wettbewerbsvorteil des Kunden.
++ Liefere funktionierende Software regelmäßig innerhalb weniger Wochen oder Monate und bevorzuge dabei die kürzere Zeitspanne.
++ Fachexperten und Entwickler müssen während des Projektes täglich zusammenarbeiten.
++ Errichte Projekte rund um motivierte Individuen. Gib ihnen das Umfeld und die Unterstützung, die sie benötigen und vertraue darauf, dass sie die Aufgabe erledigen.
++ Die effizienteste und effektivste Methode, Informationen an und innerhalb eines Entwicklungsteams zu übermitteln, ist im Gespräch von Angesicht zu Angesicht.
++ Funktionierende Software ist das wichtigste Fortschrittsmaß.
++ Agile Prozesse fördern nachhaltige Entwicklung. Die Auftraggeber, Entwickler und Benutzer sollten ein gleichmäßiges Tempo auf unbegrenzte Zeit halten können.
++ Ständiges Augenmerk auf technische Exzellenz und gutes Design fördert Agilität.
++ Einfachheit -- die Kunst, die Menge nicht getaner Arbeit zu maximieren -- ist essenziell.
++ Die besten Architekturen, Anforderungen und Entwürfe entstehen durch selbstorganisierte Teams.
++ In regelmäßigen Abständen reflektiert das Team, wie es effektiver werden kann und passt sein Verhalten entsprechend an.
+
+Aus diesen Erkenntnissen wurden eine Reihe an verschiedenen agilen Methoden entwickelt.
+
+**** Agile Methoden
+Eine Methode ist ein formalisierter, allgemeiner Ablauf, der sich bewährt hat.
++ Extreme Programming
++ Pragmatic Programming
++ Kanban
++ Crystal
++ Feature Driven Development
++ Scrum
+***** Scrum
+Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansatz im Vordergrund, der den Entwicklungsprozess in Sprints einteilt. Ein Sprint ist eine Zeiteinheit von min. einer Woche bis max. vier Wochen. Zudem definiert Scrum die drei Rollen Productowner, Scrummaster und Team, welche verschidene funktionen innerhalb der Einzelen Phasen einse Sprint inne haben.
+
+1. Product Backlog :: Der Product Owner bildet eine Schnittstelle zwischen dem Team und dem Kunden. Er initiiert das Product Backlog, indem er, auch in zusammenarbeit mit den Stakeholdern (Kunden, Investoren, dem Team, etc.), einen ersten Lösungsversuch definiert.
+2. Sprint Planning & Sprint Backlog :: Bevor der Sprint gestartet wird,muss der Sprint geplant werden. Dafür wird vom Productowner der Product Backlog vorgestellt. Das Team entscheidet selbständig, welche und wieviele Anforderungen sie in Ihren Sprint Backlog übernimmt und im kommenden Sprint umsetzen will. Die Anforderungen werden schlussendlich in Tasks herrunter gebrochen.
+3. Sprint & Daily Scrum :: Während des Sprint wird das Sprint Backlog und die daraus resultierenden Tasks abgearbeitet. Integraler bestandteil des Sprint ist das Daily Scrum, ein tägliches, sehr kurzes Meeting, in welchem jedes Mitglied des Teams mitteilt, was er gemacht hat, was er machen wird und welche Probleme es gibt, um das Team auf einen einheitliche Stand zu bringen. Der Sprint wird vom Scrum Master betreut. Er sorgt dafür, das die Scrum Regeln eingehalten werden und das das Team möglichst Barrierefrei arbeiten kann.
+4. Sprint Review :: Im Sprint Review wird das Inkrement, das Zwischenergebnisse, vom Product Owner, gegebenen falls in zusammenarbeit mit Kunden, gegen die Anforderungen aus dem Product Backlog geprüft. Der Product Owner nutzt das Review zudem um das Backlog zu aktualisiern und als Startpunkt für das nächste Sprint Planing verfügbar zu machen.
+5. Sprint Retroperspective :: Im letzten Meeting vor dem Prozessneustart setzten sich Team, Scrum Master und evtl. auch der Product Owner zusammen um zu besprechen, an welchen stellen der nächste Sprint verbessert werden kann.
+
++ Scrum hat die Rollen Product Owner, Scrum Master und Team.
++ Ein Sprint dauert zwischen einer und vier Wochen.
++ Ein Sprint besteht aus den Phasen Sprint Planning, Sprint, Sprint Review und Sprint Retroperspective.
++ Der Product Owner ist eine Schnittstelle zwischem dem Team und Stakeholdern.
++ Der Product Owner ist für das Product Backlog zuständig.
++ Der Product Backlog ist eine organisierte Übersicht über die Anforderungen an das Produkt.
++ Der Scrum Master unterstützt das Team, sodass es ungestört arbeiten kann.
++ Das Team besteht aus min. 3 Personen und sollte max. 10 Personen haben.
++ Das sollte aus verschiedensten Experten bestehen.
++ Über das Daily Scrum wird das Team auf einen einheitlichen Informationsstand gesetzt.
++ Stakeholder können jederzeit in den Prozess eingebunden werden.
+
+**** Agile Prozesse
+Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der agile Prozess hat zum Ziel, schnell ein Ergebnis zu erreichen, welches mit dem Kunden abgestimmt werden kann. Dabei kommen agile Methoden zum einsatzt.
+
+
+** Qualitätsmanagment
+*** Grundlagen
+*** DIN EN ISO 9000ff.
+*** Qualitätsmanagmentsysteme
+*** Total Quality Managment
+*** Softwarequalität
+*** Barrierefreiheit
+** Datenschutz
+*** Grundlagen
+*** Standard-Datenschutzmodelle
+*** kontaktformulare
+** IT-Sicherheit
+*** Gefährdung der IT-Sicherheit
+*** Maßnahmen gegen Gefährdung der IT-Sicherheit
+*** IT-Grundschutz
+*** Schutzbedarfsfeststellung
+*** IT-Sicherheitsgesetz
+*** Überblick IT-Sicherheit
+*** Verschlüsselungsverfahren
+** IT-Systeme
+*** Datensicherungskonzepte
++ Vollbackup
+	- Der Speicherstand soll konsitent gesichert werden
+	- File und Datenbanksicherung
+	- Außerhalb der Arbeitszeiten
+	- Ablauf
+		+ user ausloggen
+		+ Dienste stoppen
+		+ Datenbank herrunter fahren
+		+ Backup auf externes Medium durchführen
+		+ Datenbank hoch fahren
+		+ Dienste starten
+	- Vorteile
+		+ Nur ein File für die Herrstellung
+		+ Basis für weitere Backup-Varianten
+	- Nachteile
+		+ Zeitintensiv
+		+ hoher Speicherbedarf	
++ Differenzielles Backup
+	- Ablauf
+		+ Vollsicherung
+		+ Alle Änderungen nach dem Letzten Vollbackup finden
+	- Vorteile
+		+ Speichersparend
+		+ Wiederherstellungsaufwand ist Relativ gering F+D
+	- Nachteile
+		+ S
+	- Filesicherungskonzept
++ Incremental Backup
+	- Es werden nur die Änderungen seit dem letzten Backup gesichert.
+	- Vorteile
+		+ Schnelle umsetzung
+		+ Speichersparend
+	- Nachteil
+		+ Hoher Wiederherstellungsaufwand (F+n*I)
+*** Konzeption einer IT-Ausstattung
+*** Installation von Hardware
+*** Beratung von IT-Grundfragen
+*** Beratung zu Dateiformaten und Codes
+*** Einsatzt von Cloudcomputing
+*** Virtualisierung
+*** Schutzmaßnahmen nach DIN VDE 100-410
+*** Betriebssysteme
+*** Schnittstellen
+*** Industrie 4.0
+*** Anwendungssysteme
+*** Prozessoren und Speicher
+*** Datenspeicherung und Ausfallsicherheit
+** Software
+*** Einordnung von Programmiersprachen
+*** Pseudocode
+*** Algorithmen
+*** HTML und XML
+*** UML-Klassendiagramm
+*** UML-Use-Case-Diagramm
+*** Programmablaufplan - Refactoring
+*** Einordnug Datenbankaspekte
+*** ER-Diagramm
+*** SQL-Abfragen
+*** Softwareentwicklungsprozess
+*** Debugging
+** Netzwerke
+*** OSI-Modell, TCP/IP-Modell & Protokolle
+*** WLAN
+*** Gebäudeverkabelung
+*** Konfiguration von IP-Adressen
+*** IPv6
+*** Netzwerkverkabelung - Kupferkabel
+*** Fehlersuche im Netzwerk
+*** Fernwartung
+** Arbeits & Geschäftsprozesse
+*** Das Unternehmen und sein Umfeld
+*** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
+*** Prozesse im Unternehmen - der Beschaffungsprozess
+*** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
+*** Auftragseingangprozesse im Unternehmen und Preisbildung
