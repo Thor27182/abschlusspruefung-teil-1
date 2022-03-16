@@ -175,11 +175,44 @@ Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der 
 *** Total Quality Managment
 *** Softwarequalität
 *** Barrierefreiheit
-** Datenschutz
-*** Grundlagen
+Das *Behindertengleichstellungsgesetzt* und die daraus folgenden *Barrierefreie-Informationstechnik-Verordnung - BITV 2.0* hat zum Ziel, das moderne Informations- und Kommunikations-System grundsätzlich barrierefrei gestaltet werden. Im IT-Bereich bedeutet Barrierefreiheit, dass Betriebssystem, Anwendungen und Websites auch von Menschen mit körperlichen Einschränkungen bedient werden können. Maßnahmen hierfür sind:
++ Strukturierung und Aussagekräftige Überschriften 
++ Navigierbarkeit ohne Maus
++ Alternativtexte für Bilder
++ Texte sind skalierbar
+
+** Datenschutz & IT-Sicherheit
+Datenschutz befasst sich mit dem Schutz von Persönlichkeitsrechten während IT/Daten-Sicherheit sich mit dem Schutz von Daten beschäftigt.
+
+Der Datenschutz befasst sich mit dem Schutz von Persönlichkeitsrechten durch die Verarbeitung und Speicherung von personenbezogenen Daten und wird durch die *Datenschutz-Grundverordung - DSGVO* der EU und dem daraus resultierenden *Bundesdatenschutzgesetzt - BDSG* und *Landesdatenschutzgesetze* geregelt. Die *DSGVO* bietet Personen folgende Rechte:
++ Recht auf Auskunft :: Eine Person hat das Recht zu erfahren, welche Daten gespeichert und verarbeitet werden, den Verarbeitungszweck, die Datenherkunft und Weitergabe sowie die Dauer der Speicherung.
++ Recht auf Berichtigung :: Eine Person hat das Recht auf sofortige Berichtigung falscher Daten.
++ Recht auf Löschung :: Eine Person hat das Recht auf die Löschung von Daten,
+	- wenn der Verarbeitungszweck nicht mehr gegeben ist.
+	- wenn die Person ihre Einwilligung mit allen Konsequenzen wiederruft.
+	- wenn die Daten unrechtmäßig erhoben wurden.
+	
+Hat ein Unternehmen mit personenbezogenen Daten zu tun, muss ein Datenschutzbeauftragter ernannt werden, wenn min. einer der folgenden Punkte zutrifft:
++ Min. 20 Mitarbeiter arbeiten dauerhaft mit der automatisierten Verarbeitung von personenbezogenen Daten.
++ Der Verarbeitungszweck liegt bei der Erfassung von Daten zu Herkunft, Religion, politischer Anschauung oder Gesundheit.
++ Der Verarbeitungszweck birgt ein hohes Risiko für die Rechte und Freiheiten der betroffenen Personen.
++ Daten werden geschäftsmäßig erhoben und weitergegeben.
++ Der Verarbeitungszweck liegt bei der systematischen und umfangrichen Überwachung der betroffenen Personen.
+
+Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodell überprüft werden. Dafür definiert das Modell sieben Gewährleistungsziele:
++ Datenminimierung :: Die Datenmenge zu einer Person muss so gering wie möglich gehalten werde. Dies wird dadurch erreicht,
+	- das nur Daten erhoben werden, die benötigt werden.
+	- das Daten nur solange gespeichert werden wie nötig
++ Verfügbarkeit :: Der Zugriff auf die Daten und die ordnungsgemäße Verwendung in den zugeordenten Prozessen ist unverzüglich möglich. Dies wird erreicht durch
+	- eine hohe Belastbarkeit des Systens durch Redundanzen in Hard- und Software sowie Infrastruktur
+	- die Wiederherstellbarkeit von Datenständen durch Datensicherungen
++ Integrität :: Die Daten müssen vollständig, richtig und aktuell bleiben. Abweichungen sollten aussgeschlossen sein oder müssen feststellbar sein.
++ Vertraulichkeit
++ Unwahrscheinlichkeit
++ Nichtverkettung
++ Intervenierbarkeit
+
 *** Standard-Datenschutzmodelle
-*** kontaktformulare
-** IT-Sicherheit
 *** Gefährdung der IT-Sicherheit
 *** Maßnahmen gegen Gefährdung der IT-Sicherheit
 *** IT-Grundschutz
@@ -187,7 +220,6 @@ Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der 
 *** IT-Sicherheitsgesetz
 *** Überblick IT-Sicherheit
 *** Verschlüsselungsverfahren
-** IT-Systeme
 *** Datensicherungskonzepte
 + Vollbackup
 	- Der Speicherstand soll konsitent gesichert werden
@@ -223,6 +255,7 @@ Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der 
 		+ Speichersparend
 	- Nachteil
 		+ Hoher Wiederherstellungsaufwand (F+n*I)
+** IT-Systeme
 *** Konzeption einer IT-Ausstattung
 *** Installation von Hardware
 *** Beratung von IT-Grundfragen
