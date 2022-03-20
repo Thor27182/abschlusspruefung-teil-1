@@ -290,44 +290,44 @@ Tests kann man in *White-Box* und *Black Box* Test einteilen. Beim White-Box Tes
 		+ Speichersparend
 	- Nachteil
 		+ Hoher Wiederherstellungsaufwand (F+n*I)
-** Konzeption einer IT-Ausstattung
-** Installation von Hardware
-** Beratung von IT-Grundfragen
-** Beratung zu Dateiformaten und Codes
-** Einsatzt von Cloudcomputing
-** Virtualisierung
-** Schutzmaßnahmen nach DIN VDE 100-410
-** Betriebssysteme
-** Schnittstellen
-** Industrie 4.0
-** Anwendungssysteme
-** Prozessoren und Speicher
-** Datenspeicherung und Ausfallsicherheit
-* Software
-** Einordnung von Programmiersprachen
-** Pseudocode
-** Algorithmen
-** HTML und XML
-** UML-Klassendiagramm
-** UML-Use-Case-Diagramm
-** Programmablaufplan - Refactoring
-** Einordnug Datenbankaspekte
-** ER-Diagramm
-** SQL-Abfragen
-** Softwareentwicklungsprozess
-** Debugging
-* Netzwerke
-** OSI-Modell, TCP/IP-Modell & Protokolle
-** WLAN
-** Gebäudeverkabelung
-** Konfiguration von IP-Adressen
-** IPv6
-** Netzwerkverkabelung - Kupferkabel
-** Fehlersuche im Netzwerk
-** Fernwartung
-* Arbeits & Geschäftsprozesse
-** Das Unternehmen und sein Umfeld
-** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
-** Prozesse im Unternehmen - der Beschaffungsprozess
-** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
-** Auftragseingangprozesse im Unternehmen und Preisbildung
+*** Konzeption einer IT-Ausstattung
+*** Installation von Hardware
+*** Beratung von IT-Grundfragen
+*** Beratung zu Dateiformaten und Codes
+*** Einsatzt von Cloudcomputing
+*** Virtualisierung
+*** Schutzmaßnahmen nach DIN VDE 100-410
+*** Betriebssysteme
+*** Schnittstellen
+*** Industrie 4.0
+*** Anwendungssysteme
+*** Prozessoren und Speicher
+*** Datenspeicherung und Ausfallsicherheit
+** Software
+*** Einordnung von Programmiersprachen
+*** Pseudocode
+*** Algorithmen
+*** HTML und XML
+*** UML-Klassendiagramm
+*** UML-Use-Case-Diagramm
+*** Programmablaufplan - Refactoring
+*** Einordnug Datenbankaspekte
+*** ER-Diagramm
+*** SQL-Abfragen
+*** Softwareentwicklungsprozess
+*** Debugging
+** Netzwerke
+*** OSI-Modell, TCP/IP-Modell & Protokolle
+*** WLAN
+*** Gebäudeverkabelung
+*** Konfiguration von IP-Adressen
+*** IPv6
+*** Netzwerkverkabelung - Kupferkabel
+*** Fehlersuche im Netzwerk
+*** Fernwartung
+** Arbeits & Geschäftsprozesse
+*** Das Unternehmen und sein Umfeld
+*** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
+*** Prozesse im Unternehmen - der Beschaffungsprozess
+*** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
+*** Auftragseingangprozesse im Unternehmen und Preisbildung
