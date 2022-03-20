@@ -1,6 +1,7 @@
-* Teil 1 der gestreckten Abschlussprüfung "Einrichten eines IT-gestützten Arbeitsplatz"
-** Projektmanagment
-*** Grundlagen
+#+TITLE: Teil 1 der gestreckten Abschlussprüfung "Einrichten eines IT-gestützten Arbeitsplatz"
+#+OPTION: toc=nil
+
+* Projektmanagment
 Ein Projekt ist ein einmaliges Vorhaben mit einem definiertem Ziel über einen festgelegten Zeitraum.
 
 Dieses Ziel sollte nach den *SMART*-Kriterien definiert werden:
@@ -39,7 +40,7 @@ Das Risikomanagement befasst sich mit folgenden Schritten:
 4. Bewältigung :: Maßnahmen um die Eintrittswahrscheinlichkeit oder die Auswirkungen zu minimieren.
 5. Überwachung :: Überwachung der Eintrittswahrscheinlichkeit.
 
-*** Netzplan
+** Netzplan
 Im Netzplan werden alle Vorgänge eines Projekts nach ihren Abhängigkeiten und Reihenfolgen verkettet und grafisch dargestellt. Er stellt einen ersten Entwurf eines Ablaufplans dar und gibt Informationen darüber, wie Vorgänge verschoben werden können. Zudem können zeitkritische Vorgänge identifiziert werden und als kritische Pfad markiert werden.
 Im Netzplan gibt es folgende Objekte:
 + Vorgangskonten
@@ -77,7 +78,7 @@ Erstellen eines Netzplan:
 Im Netzplan gibt es keine genaue zeitliche Einordnung.
 
 Der Nachteil des Netzplan ist, das er nicht Intuitiv zu lesen und zu verstehen ist. Als Gantt-Diagramm ist die Darstellung intuitiver zu verstehen.
-*** Gantt-Diagramm
+** Gantt-Diagramm
 Im Gantt-Diagramm werden alle Vorgänge eines Projekts nach ihren Abhängigkeiten und Reihenfolgen verkettet und grafisch dargestellt. Er stellt einen weiteren Entwurf eines Ablaufplans dar und gibt Informationen darüber, wie Vorgänge verschoben werden können. Zudem können zeitkritische Vorgänge identifiziert werden und als kritische Pfad markiert werden. Zu guter letzt ermöglicht das Gantt-Diagramm die Kalendrierung durch das festlegen eines Startzeitpunktes. Gibt es einen Netzplan, so kann dieser sehr leicht als Gantt-Diagramm dargestellt werden.
 
 Erstellen eines Gantt-Diagramm
@@ -88,7 +89,7 @@ Erstellen eines Gantt-Diagramm
 [[https://www.youtube.com/watch?v=EVDuXXzl4ZY]]
 
 
-*** Wasserfallmodelle
+** Wasserfallmodelle
 Das Wasserfallmodell ist ein lineares Vorgehensmodel für die durchführung von Projekten. In einem Top-Down Ansatz wird das Projekt von einem von einem abstrakten Startpunkt zu einem konkreten Ziel gebracht. Dafür wird das Projekt in verschidene Phasen eingeteilt:
 1. Planung (Lastenheft & Projektplan) :: Der Auftraggeber definiert, unter möglicher einbeziehung des Auftragnehmers, die Anforderungen ( *Was & Wofür* ) an die Software und die zeitliche Entwicklung und die Meilensteine des Projekts
 2. Definition (Pflichtenheft) :: Der Auftragnehmer definiert in konkreter Form, *wie & womit* er die Anforderungen im Pflichtenheft umsetzen wird.
@@ -107,7 +108,7 @@ Nachteile:
 + Fehler die in einer frühen Phase gemacht wurden, können unentdeckt bleiben und können so nur unter hohm aufwand entfernt werden.
 + Phasen laufen theoretisch nacheinander ab, Rückschritte sind in der Entwicklung aber unvermeidbar
 
-*** Agile Softwareentwicklung
+** Agile Softwareentwicklung
 Die agile Softwareentwicklung orientiert sich am agilen Manifest, welches 2001 von 17 Informatikern verfasst wurde. Das Manifest formuliert vier Leitsätze und zwölf Prinzipen für die Softwareentwicklung.
 
 #+BEGIN_QUOTE
@@ -135,7 +136,7 @@ Die Prinzipien lauten:
 
 Aus diesen Erkenntnissen wurden eine Reihe an verschiedenen agilen Methoden entwickelt.
 
-**** Agile Methoden
+*** Agile Methoden
 Eine Methode ist ein formalisierter, allgemeiner Ablauf, der sich bewährt hat.
 + Extreme Programming
 + Pragmatic Programming
@@ -143,7 +144,7 @@ Eine Methode ist ein formalisierter, allgemeiner Ablauf, der sich bewährt hat.
 + Crystal
 + Feature Driven Development
 + Scrum
-***** Scrum
+*** Scrum
 Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansatz im Vordergrund, der den Entwicklungsprozess in Sprints einteilt. Ein Sprint ist eine Zeiteinheit von min. einer Woche bis max. vier Wochen. Zudem definiert Scrum die drei Rollen Productowner, Scrummaster und Team, welche verschidene funktionen innerhalb der Einzelen Phasen einse Sprint inne haben.
 
 1. Product Backlog :: Der Product Owner bildet eine Schnittstelle zwischen dem Team und dem Kunden. Er initiiert das Product Backlog, indem er, auch in zusammenarbeit mit den Stakeholdern (Kunden, Investoren, dem Team, etc.), einen ersten Lösungsversuch definiert.
@@ -164,31 +165,97 @@ Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansa
 + Über das Daily Scrum wird das Team auf einen einheitlichen Informationsstand gesetzt.
 + Stakeholder können jederzeit in den Prozess eingebunden werden.
 
-**** Agile Prozesse
+*** Agile Prozesse
 Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der agile Prozess hat zum Ziel, schnell ein Ergebnis zu erreichen, welches mit dem Kunden abgestimmt werden kann. Dabei kommen agile Methoden zum einsatzt.
 
+* Qualitätsmanagment
+Produkte und dazugehörige Dienstleistungen haben eine bestimmte Qualität. Anhand der Qualität kann man bestimmen, in wie weit die inhärenten Merkmale eines Produkt die Anforderungen erfüllen. Das Qualitätsmanagment überwacht und verbessert die Prozesse und organisatorische Maßnamen innerhalb der Entwicklung und der Dienstleistungen um in diesen ein möglichst hohe Qualität zu erreichen.
 
-** Qualitätsmanagment
-*** Grundlagen
-*** DIN EN ISO 9000ff.
-*** Qualitätsmanagmentsysteme
-*** Total Quality Managment
-*** Softwarequalität
-*** Barrierefreiheit
-** Datenschutz
-*** Grundlagen
-*** Standard-Datenschutzmodelle
-*** kontaktformulare
-** IT-Sicherheit
-*** Gefährdung der IT-Sicherheit
-*** Maßnahmen gegen Gefährdung der IT-Sicherheit
-*** IT-Grundschutz
-*** Schutzbedarfsfeststellung
-*** IT-Sicherheitsgesetz
-*** Überblick IT-Sicherheit
-*** Verschlüsselungsverfahren
-** IT-Systeme
-*** Datensicherungskonzepte
+Innerhalb eines Unternehmens sollte ein Qualitätsmanagmentsystem eingerichtet sein, welches Rollen und Verantwortlichtekeiten festlegt sowie die Prozesse definiert und dokumentiert. Es gibt verschidene Philosopien, wie ein Qualitätsmanagentsystem auszusehen hat. Beispiele hierfür sind das Total-Quality-Model *TQM* und dessen Weiterentwicklung *EFQM-Modell* (European Foundation for Quality Managment-Modell).
+
+Die Sieben Grundsätze des Qualitätmanagments:
++ Kundenorientiert
++ Verantwortlichkeit der Führung
++ Einbeziehung der beteiligten Personen
++ Prozessorientierter Ansatz
++ Kontinuierliche Verbesserung
++ Sachbezogene Entscheidungsfindung
++ Lieferantenbeziehungen zum gegenseitigen Nutzen.
+
+Die DIN EN ISO 9000ff definiert ein weltweit einheitlichen Standard für Qualitätsmanagmentsystem. Größtenteils definiert diese Norm Prozesse, Produkte und Dienstleisungen und deren Verbesserung, aber auch den Umgang mit Kunden, Lieferanten und Mitarbeitern. Firmen können die Normerfüllung ihres Qualitätsmanagment durch Auditoren prüfen und zertifizieren lassen.
+
+Normen
++ DIN :: Deutsch Industrie Norm
++ EN :: Europäische Norm
++ ISO :: International Organisation für Normung
++ ICE :: International Electrotechnical Commission
+
++ Qualitätsaspekte
+  - Philosophien
+    + TQM Total-Quality-Managment-Model
+    + EFQM European Foundation Quality Managment Model
+  - Normen
+    + DIN EN ISO 9000ff
+      - DIN EN ISO 9001
+      - DIN EN ISO 9004
+  - Qualitätsbegriff
+    + Prozessqualität
+    + Produktqualität
+      - Inhärentes Merkmal
+  - Qualitätsmanagment
+    + Qualitätspolitik :: In der Qualitätspolitik erstellen Unternehmen unter berücksichtigung ihrer Qualitätsziele die Rahmenbedingungen für alle weiteren Aktivitäten des Qualitätsmanagment.
+    + Qualitätsplanung :: In der Qualitätsplanung wird anhand des Ist-Zustand die Prozesse(Ablauforganisation) & Strukturen(Aufbauorganisation) gestaltet und der Soll-Zustand definiert. 
+    + Qualitätslenkung :: In der Qualitätslenkung werden die in der Qualitätsplanung gestalteten Prozesse umgesetzt.
+    + Qualitätsprüfung :: In der Qualitätsprüfung wird ausgewertet, ober der gewünschte Soll-Zustand erreicht wurde. 
+    + Qualitätssicherung :: In der Qualitätssicherung werden aus der Qualitätsplanung, Qualitätslenkung & Qualitätsprüfung gewonnenen Informationen genutz, um die Prozesse und Strukturen zu verbessen. 
+** Qualitätsmanagmentsysteme
+Die Einführung eines Qualitätsmanagmentsysteme passiert in folgenden Schritten
++ Ist-Analyse
++ Soll-Konzept
++ QM-Handbuch erstellen
++ Mitarbeiterschulung
++ Interner Audit
++ Externer Audit & Zertifizierung
+** TQM & EFQM
+Total Quality Managment ist eine Philosopie, die unternehmensweit ein Klima der Verbesserung von Prozessen, Strukturen und personellen Fähigkeiten etabliert um Produkte und Dienstleistungen höchster Qualität zu erstellen. Die Unternehmensleitung ist in diesem Ansatz dazu verpflichtet die Qualität durch Zielsetzung und Finanzierung von Personaleinsatz und Schulungen aktiv zu verwalten.
+
+European Foundation Quality Managment ist eine weiterentwickelte dieser Philosopie.
+
+Beide Philosopien werden durch die Schaffung der Norm DIN EN ISO 9000ff überschattet und quasie formalisiert.  
+
+** DIN EN ISO 9000ff.
+** Softwarequalität
+Software hat folgende Qualitätsmerkmale:
++ Zuverlässigkeit :: Zuverlässigkeit beschreibt wie reif eine Software ist im Bezug auf Fehlertolerenz während der Laufzeit und der Wiederherstellbarkeit der Arbeitsfähigkeit.
++ Funktionalität :: Funktionalität beschreibt die Umsetzung der Anforderungen.
++ Benutzbarkeit :: Benutzbarkeit beschreibt, wie einfach die Software zu bedinen und zu erlenen ist.
++ Effizenz :: Effizenz beschreibt das Zeitverhalten und Verbrauchsverhalten.
++ Wartbarkeit :: Wartbarkeit beschreibt, wie einfach der Programmcode zu analysieren und zu änderne ist.
++ Portabilität :: Portabilität beschreibt die Instaliebarkeit auf verschiedenen Plattformen, Austauschbarkeit verschidener Komponenten und die Anbindung andere Systeme
+
+Um die Qualität einer Software sicher zu stellen, sind verschidene Tests nötig
++ Unit/Modultests :: Der Unittest dient dazu eine Module/Unterprogramme/Komponenten oder Klassen auf Lauffähigkeit und Korrekte (Teil)Ergebnisse zu überprüfen.
++ Integrationstest :: Der Integrationstest testet die Zusammenarbeit voneinander abhängiger Komponente und deren Schnittstellen auf korrekte Ergebnisse über komplette Abläufe.
++ Systemtest :: Beim Systemtest wird das gesamte System gegen alle funktionalen und nicht-funktionalen Anforderungen auf einem Testsystem, welches die Produktivumgebung simuliert, getestet.
++ Abnahmetest :: Der Abnahmetest wird durch den Auftraggeber durchgefühert und testet genau wie der Systemtest alle funktionalen und nicht-funktionalen Anforderungen.
+
+Tests kann man in *White-Box* und *Black Box* Test einteilen. Beim White-Box Test sind dem Tester die Funktion sowie deren Implementation bekannt, beim Black-Box Test sind dem Tester die inneren Abläufe nicht bekannt.
+
+** Barrierefreiheit
+* datenschutz
+** Grundlagen
+** Standard-Datenschutzmodelle
+** kontaktformulare
+* IT-Sicherheit
+** Gefährdung der IT-Sicherheit
+** Maßnahmen gegen Gefährdung der IT-Sicherheit
+** IT-Grundschutz
+** Schutzbedarfsfeststellung
+** IT-Sicherheitsgesetz
+** Überblick IT-Sicherheit
+** Verschlüsselungsverfahren
+* it-Systeme
+** Datensicherungskonzepte
 + Vollbackup
 	- Der Speicherstand soll konsitent gesichert werden
 	- File und Datenbanksicherung
@@ -223,44 +290,44 @@ Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der 
 		+ Speichersparend
 	- Nachteil
 		+ Hoher Wiederherstellungsaufwand (F+n*I)
-*** Konzeption einer IT-Ausstattung
-*** Installation von Hardware
-*** Beratung von IT-Grundfragen
-*** Beratung zu Dateiformaten und Codes
-*** Einsatzt von Cloudcomputing
-*** Virtualisierung
-*** Schutzmaßnahmen nach DIN VDE 100-410
-*** Betriebssysteme
-*** Schnittstellen
-*** Industrie 4.0
-*** Anwendungssysteme
-*** Prozessoren und Speicher
-*** Datenspeicherung und Ausfallsicherheit
-** Software
-*** Einordnung von Programmiersprachen
-*** Pseudocode
-*** Algorithmen
-*** HTML und XML
-*** UML-Klassendiagramm
-*** UML-Use-Case-Diagramm
-*** Programmablaufplan - Refactoring
-*** Einordnug Datenbankaspekte
-*** ER-Diagramm
-*** SQL-Abfragen
-*** Softwareentwicklungsprozess
-*** Debugging
-** Netzwerke
-*** OSI-Modell, TCP/IP-Modell & Protokolle
-*** WLAN
-*** Gebäudeverkabelung
-*** Konfiguration von IP-Adressen
-*** IPv6
-*** Netzwerkverkabelung - Kupferkabel
-*** Fehlersuche im Netzwerk
-*** Fernwartung
-** Arbeits & Geschäftsprozesse
-*** Das Unternehmen und sein Umfeld
-*** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
-*** Prozesse im Unternehmen - der Beschaffungsprozess
-*** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
-*** Auftragseingangprozesse im Unternehmen und Preisbildung
+** Konzeption einer IT-Ausstattung
+** Installation von Hardware
+** Beratung von IT-Grundfragen
+** Beratung zu Dateiformaten und Codes
+** Einsatzt von Cloudcomputing
+** Virtualisierung
+** Schutzmaßnahmen nach DIN VDE 100-410
+** Betriebssysteme
+** Schnittstellen
+** Industrie 4.0
+** Anwendungssysteme
+** Prozessoren und Speicher
+** Datenspeicherung und Ausfallsicherheit
+* Software
+** Einordnung von Programmiersprachen
+** Pseudocode
+** Algorithmen
+** HTML und XML
+** UML-Klassendiagramm
+** UML-Use-Case-Diagramm
+** Programmablaufplan - Refactoring
+** Einordnug Datenbankaspekte
+** ER-Diagramm
+** SQL-Abfragen
+** Softwareentwicklungsprozess
+** Debugging
+* Netzwerke
+** OSI-Modell, TCP/IP-Modell & Protokolle
+** WLAN
+** Gebäudeverkabelung
+** Konfiguration von IP-Adressen
+** IPv6
+** Netzwerkverkabelung - Kupferkabel
+** Fehlersuche im Netzwerk
+** Fernwartung
+* Arbeits & Geschäftsprozesse
+** Das Unternehmen und sein Umfeld
+** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
+** Prozesse im Unternehmen - der Beschaffungsprozess
+** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
+** Auftragseingangprozesse im Unternehmen und Preisbildung
