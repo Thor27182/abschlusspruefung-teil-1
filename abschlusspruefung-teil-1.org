@@ -242,10 +242,54 @@ Um die Qualität einer Software sicher zu stellen, sind verschidene Tests nötig
 Tests kann man in *White-Box* und *Black Box* Test einteilen. Beim White-Box Test sind dem Tester die Funktion sowie deren Implementation bekannt, beim Black-Box Test sind dem Tester die inneren Abläufe nicht bekannt.
 
 ** Barrierefreiheit
-* datenschutz
-** Grundlagen
+*** Barrierefreiheit
+Das *Behindertengleichstellungsgesetzt* und die daraus folgenden *Barrierefreie-Informationstechnik-Verordnung - BITV 2.0* hat zum Ziel, das moderne Informations- und Kommunikations-System grundsätzlich barrierefrei gestaltet werden. Im IT-Bereich bedeutet Barrierefreiheit, dass Betriebssystem, Anwendungen und Websites auch von Menschen mit körperlichen Einschränkungen bedient werden können. Maßnahmen hierfür sind:
++ Strukturierung und Aussagekräftige Überschriften 
++ Navigierbarkeit ohne Maus
++ Alternativtexte für Bilder
++ Texte sind skalierbar
+
+* Datenschutz
+Datenschutz befasst sich mit dem Schutz von Persönlichkeitsrechten während IT/Daten-Sicherheit sich mit dem Schutz von Daten beschäftigt.
+
+Der Datenschutz befasst sich mit dem Schutz von Persönlichkeitsrechten durch die Verarbeitung und Speicherung von personenbezogenen Daten und wird durch die *Datenschutz-Grundverordung - DSGVO* der EU und dem daraus resultierenden *Bundesdatenschutzgesetzt - BDSG* und *Landesdatenschutzgesetze* geregelt. Die *DSGVO* bietet Personen folgende Rechte:
++ Recht auf Auskunft :: Eine Person hat das Recht zu erfahren, welche Daten gespeichert und verarbeitet werden, den Verarbeitungszweck, die Datenherkunft und Weitergabe sowie die Dauer der Speicherung.
++ Recht auf Berichtigung :: Eine Person hat das Recht auf sofortige Berichtigung falscher Daten.
++ Recht auf Löschung :: Eine Person hat das Recht auf die Löschung von Daten,
+	- wenn der Verarbeitungszweck nicht mehr gegeben ist.
+	- wenn die Person ihre Einwilligung mit allen Konsequenzen wiederruft.
+	- wenn die Daten unrechtmäßig erhoben wurden.
+	
+Hat ein Unternehmen mit personenbezogenen Daten zu tun, muss ein Datenschutzbeauftragter ernannt werden, wenn min. einer der folgenden Punkte zutrifft:
++ Min. 20 Mitarbeiter arbeiten dauerhaft mit der automatisierten Verarbeitung von personenbezogenen Daten.
++ Der Verarbeitungszweck liegt bei der Erfassung von Daten zu Herkunft, Religion, politischer Anschauung oder Gesundheit.
++ Der Verarbeitungszweck birgt ein hohes Risiko für die Rechte und Freiheiten der betroffenen Personen.
++ Daten werden geschäftsmäßig erhoben und weitergegeben.
++ Der Verarbeitungszweck liegt bei der systematischen und umfangrichen Überwachung der betroffenen Personen.
+
 ** Standard-Datenschutzmodelle
-** kontaktformulare
+Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodell überprüft werden. Dafür definiert das Modell sieben Gewährleistungsziele:
++ Datenminimierung :: Die Datenmenge zu einer Person muss so gering wie möglich gehalten werde. Dies wird dadurch erreicht,
+	- das nur Daten erhoben werden, die benötigt werden.
+	- das Daten nur solange gespeichert werden wie nötig
++ Verfügbarkeit :: Der Zugriff auf die Daten und die ordnungsgemäße Verwendung in den zugeordenten Prozessen ist unverzüglich möglich. Dies wird erreicht durch
+	- eine hohe Belastbarkeit des Systens durch Redundanzen in Hard- und Software sowie Infrastruktur
+	- die Wiederherstellbarkeit von Datenständen durch Datensicherungen
++ Integrität :: Die Daten müssen vollständig, richtig und aktuell bleiben. Abweichungen sollten aussgeschlossen sein oder müssen feststellbar sein, damit sie korrigiert werden können. Dies wird erreicht durch,
+	- die Einschränkung von Schreib- und Änderungsrechte in der Standardrechteverwaltung
+	- die Dokumentation von Rollen und Berechtigungen in einem Rollenkonzept
+	- die Dokumentation von Änderungen in Zugriffskontrolllisten
++ Vertraulichkeit :: Die personenbezogenen Daten sind vor der Einsicht und Verwendung unautorisierter Personen geschützt durch
+	- die Dokumentation von Rollen und Berechtigungen in einem Rollenkonzept
+	- die Dokumentation von Änderungen in Zugriffskontrolllisten
++ Nichtverkettung :: Personenbezogene Datenbestände die für unterschiedliche Verwendungszwecke erhoben wurden dürfen nicht zusammengeführt werden. Dies wird erreicht durch
+	- die Einschränkung von Verarbeitungs-, Nutzungs- & Übermittlungs-Rechten
+	- Schließen von Schnittstellen bei Verarbeitungsverfahren und Komponenten
++ Transparenz :: Betroffene Personen, der Systembetreiber und Kontrollinstanzen können erkennen, wann welche Daten für welchen Verwendungszweck erhoben und mit welchen Prozess verarbeitet wurde sowie wohin die Daten weitergeleitet werden. Hierfür werden Verarbeitung- & Geschäfts-Prozesse, Datenbestände, Datenflüsse und IT-Systeme dokumentiert.
++ Intervenierbarkeit :: Betroffene Personen können ihre Rechte auf Auskunft, Berichtigung, Löschung und weitere warnehmen. Dies wird erreicht durch
+	- differenzierte Einwilligungs-, Rücknahme- sowie Widerspruchsmöglichkeiten
+	- Schaffung notwendiger Datenfelder z. B. für Sperrkennzeichen, Benachrichtigungen, Einwilligungen, Widersprüche, Gegendarstellungen
+
 * IT-Sicherheit
 ** Gefährdung der IT-Sicherheit
 ** Maßnahmen gegen Gefährdung der IT-Sicherheit
