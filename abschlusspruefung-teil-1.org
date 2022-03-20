@@ -292,86 +292,103 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 
 * IT-Sicherheit
 ** Gefährdung der IT-Sicherheit
++ Identitätsdiebstahl :: Angreifer versuche an Login-Daten zu kommen um dann Schaden anzurichten oder illegalen Aktivitäten nachzugehen.
+  + Spoofing :: Der Angreifer verschleiert sich, um den Nutzer zu täuschen
+  + Phishing :: Der Angreifer verbirgt sich hinter eine gefälschte Website, E-Mail oder Kurznachricht um personliche Daten abzugreifen.
+  + Pharming :: DNS-Anfragen des Webbrowsers werden manipuliert, sodass der der Benutzer auf eine gefälschte Website umgeleitet wird. 
+  + Vishing :: Der Angrifer versucht sich an Telefon als vertrauenswürdiger Kommunikationspartner auszugeben, das Opfer zu täuschen und so Zugriff auf dessen System zu bekommen.
+  + Nicknapping :: Auftreten unter dem Namen oder Pseudonym im Internet. 
++ Maleware :: Maleware ist Schadsoftware, welche zu unterschiedlichen zwecken auf Fremdsystemen installiert wird.
+  + Spyware :: Software um eine Person auszuspionieren z.B. unbemerkt die Webcam zu benutzen
+  + Adware :: Software um einer Person Werbung anzueigen. Verlangsamt meist das System.
+  + Ransomware :: Software, welche die Festplatte einer Person verschlüsselt und die Entschlüsselung nur gegen ein Lösegeld herrausgibt.
+  + Trojaner :: Software, welche sich als eine sinnvolle Anwendung tarn, unbefugten aber Zugriff auf das System durch eine Hintertür gewert. 
+  + Virus :: Software die sich selbst verbreitet und in Dateien einnistet. Durch Benutzerinteraktion mit den infizierten Dateien wird das Virus ausgeführt. Viren können das System auf unterschiedliche Art beeinträchtigen, vom auslösen von harmlosen Störungen über Datenverlust bishin zu Hardwareschäden.
+  + Wurm :: Software die sich selbst verbreitet. Würmer warten nicht auf Benutzerinteraktonen sondern versuchen sich aktiv selber zu verbreiten. Würmer können das System auf unterschiedliche Art beeeinträchtigen, vom auslösen harmlose Störungen, über Datenverluste bishin zu Hardwareschäden. 
++ Botnet :: 
++ Disterbuted Denail of Service *DDoS* :: Ein Dienst wird mit sovielen Anfragen zeitgleich überfordert, sodass er seine eigendliche Aufgabe nicht mehr wahr nehmen kann. 
++ Advanced Persistent Threats *APT* ::
 ** Maßnahmen gegen Gefährdung der IT-Sicherheit
 ** IT-Grundschutz
 ** Schutzbedarfsfeststellung
 ** IT-Sicherheitsgesetz
 ** Überblick IT-Sicherheit
 ** Verschlüsselungsverfahren
-* it-Systeme
 ** Datensicherungskonzepte
 + Vollbackup
-	- Der Speicherstand soll konsitent gesichert werden
-	- File und Datenbanksicherung
-	- Außerhalb der Arbeitszeiten
-	- Ablauf
-		+ user ausloggen
-		+ Dienste stoppen
-		+ Datenbank herrunter fahren
-		+ Backup auf externes Medium durchführen
-		+ Datenbank hoch fahren
-		+ Dienste starten
-	- Vorteile
-		+ Nur ein File für die Herrstellung
-		+ Basis für weitere Backup-Varianten
-	- Nachteile
-		+ Zeitintensiv
-		+ hoher Speicherbedarf	
+  - Der Speicherstand soll konsitent gesichert werden
+    - File und Datenbanksicherung
+    - Außerhalb der Arbeitszeiten
+    - Ablauf
+      + user ausloggen
+      + Dienste stoppen
+      + Datenbank herrunter fahren
+      + Backup auf externes Medium durchführen
+      + Datenbank hoch fahren
+      + Dienste starten
+    - Vorteile
+      + Nur ein File für die Herrstellung
+      + Basis für weitere Backup-Varianten
+    - Nachteile
+      + Zeitintensiv
+      + hoher Speicherbedarf	
 + Differenzielles Backup
-	- Ablauf
-		+ Vollsicherung
-		+ Alle Änderungen nach dem Letzten Vollbackup finden
-	- Vorteile
-		+ Speichersparend
-		+ Wiederherstellungsaufwand ist Relativ gering F+D
-	- Nachteile
-		+ S
-	- Filesicherungskonzept
+  - Ablauf
+    + Vollsicherung
+    + Alle Änderungen nach dem Letzten Vollbackup finden
+  - Vorteile
+    + Speichersparend
+    + Wiederherstellungsaufwand ist Relativ gering F+D
+  - Nachteile
+    + S
+  - Filesicherungskonzept
 + Incremental Backup
-	- Es werden nur die Änderungen seit dem letzten Backup gesichert.
-	- Vorteile
-		+ Schnelle umsetzung
-		+ Speichersparend
-	- Nachteil
-		+ Hoher Wiederherstellungsaufwand (F+n*I)
-*** Konzeption einer IT-Ausstattung
-*** Installation von Hardware
-*** Beratung von IT-Grundfragen
-*** Beratung zu Dateiformaten und Codes
-*** Einsatzt von Cloudcomputing
-*** Virtualisierung
-*** Schutzmaßnahmen nach DIN VDE 100-410
-*** Betriebssysteme
-*** Schnittstellen
-*** Industrie 4.0
-*** Anwendungssysteme
-*** Prozessoren und Speicher
-*** Datenspeicherung und Ausfallsicherheit
-** Software
-*** Einordnung von Programmiersprachen
-*** Pseudocode
-*** Algorithmen
-*** HTML und XML
-*** UML-Klassendiagramm
-*** UML-Use-Case-Diagramm
-*** Programmablaufplan - Refactoring
-*** Einordnug Datenbankaspekte
-*** ER-Diagramm
-*** SQL-Abfragen
-*** Softwareentwicklungsprozess
-*** Debugging
-** Netzwerke
-*** OSI-Modell, TCP/IP-Modell & Protokolle
-*** WLAN
-*** Gebäudeverkabelung
-*** Konfiguration von IP-Adressen
-*** IPv6
-*** Netzwerkverkabelung - Kupferkabel
-*** Fehlersuche im Netzwerk
-*** Fernwartung
-** Arbeits & Geschäftsprozesse
-*** Das Unternehmen und sein Umfeld
-*** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
-*** Prozesse im Unternehmen - der Beschaffungsprozess
-*** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
-*** Auftragseingangprozesse im Unternehmen und Preisbildung
+  - Es werden nur die Änderungen seit dem letzten Backup gesichert.
+  - Vorteile
+    + Schnelle umsetzung
+    + Speichersparend
+  - Nachteil
+    + Hoher Wiederherstellungsaufwand (F+n*I)
+
+* it-Systeme
+** Konzeption einer IT-Ausstattung
+** Installation von Hardware
+** Beratung von IT-Grundfragen
+** Beratung zu Dateiformaten und Codes
+** Einsatzt von Cloudcomputing
+** Virtualisierung
+** Schutzmaßnahmen nach DIN VDE 100-410
+** Betriebssysteme
+** Schnittstellen
+** Industrie 4.0
+** Anwendungssysteme
+** Prozessoren und Speicher
+** Datenspeicherung und Ausfallsicherheit
+* Software
+** Einordnung von Programmiersprachen
+** Pseudocode
+** Algorithmen
+** HTML und XML
+** UML-Klassendiagramm
+** UML-Use-Case-Diagramm
+** Programmablaufplan - Refactoring
+** Einordnug Datenbankaspekte
+** ER-Diagramm
+** SQL-Abfragen
+** Softwareentwicklungsprozess
+** Debugging
+* Netzwerke
+** OSI-Modell, TCP/IP-Modell & Protokolle
+** WLAN
+** Gebäudeverkabelung
+** Konfiguration von IP-Adressen
+** IPv6
+** Netzwerkverkabelung - Kupferkabel
+** Fehlersuche im Netzwerk
+** Fernwartung
+* Arbeits & Geschäftsprozesse
+** Das Unternehmen und sein Umfeld
+** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
+** Prozesse im Unternehmen - der Beschaffungsprozess
+** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
+** Auftragseingangprozesse im Unternehmen und Preisbildung
