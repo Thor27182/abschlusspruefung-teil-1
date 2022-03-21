@@ -334,19 +334,34 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 		+ Speichersparend
 	- Nachteil
 		+ Hoher Wiederherstellungsaufwand (F+n*I)
-*** Konzeption einer IT-Ausstattung
-*** Installation von Hardware
-*** Beratung von IT-Grundfragen
-*** Beratung zu Dateiformaten und Codes
+
+*** Hardware
+**** Prozessoren
+Mehrprozessorsystem
+Mehrkernprozessor
+**** RAM
+**** Festplaten
+**** Schnittstellen
+**** Stromversorgung
+***** Schutzmaßnahmen nach DIN VDE 100-410
+*** Betriebssysteme
 *** Einsatzt von Cloudcomputing
 *** Virtualisierung
-*** Schutzmaßnahmen nach DIN VDE 100-410
-*** Betriebssysteme
-*** Schnittstellen
 *** Industrie 4.0
 *** Anwendungssysteme
-*** Prozessoren und Speicher
-*** Datenspeicherung und Ausfallsicherheit
+Anwendungssystem bestehen aus Software, Infrastruktur und Daten um ein bestimmtes Aufgabengebiet zu bearbeiten:
++ ERP-Systeme :: *Enterprise Resource Planning* Systeme verwalten betriebliche Ressourcen.
++ WWS-Systeme :: *Warenwirtschaftssystem* verwalten betriebliche Abläufe.
++ CRM-Systeme :: *Customer Relation Managment* Systeme unterstützen ein Unternehmen bei der Ausrichtung ihrer Geschäftsprozesse auf den Kunden.
++ SCM-Systeme :: *Supply Chain Managment* Systeme unterstüzen ein Unternehmen bei der Verwaltung der Logistik
+*** RAID-Systeme
+RAID steht für Redundant Array (of) independent Disks und ist ein System aus mehreren Festplatten und einem RAID-Controller. Seine Aufgabe ist es die Verfügbarkeit der Datenspeicherung zu erhöhen, indem z.B. Platten im laufenden Betrieb gewechselt und wiederhersgestellt werden können. RAID Systeme sind keine Backuplösung, da, auch wenn die Daten gespeigelt werden, Datenkompromitirungen ebenfalls gespeigelt werden und so ein wiederherstellen unmöglich machen.
+
+RAID 0
+RAID 1
+RAID 5
+RAID 10
+
 ** Software
 *** Einordnung von Programmiersprachen
 *** Pseudocode
