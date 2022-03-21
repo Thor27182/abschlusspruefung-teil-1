@@ -385,6 +385,20 @@ RAID 10
 *** Fehlersuche im Netzwerk
 *** Fernwartung
 ** Arbeits & Geschäftsprozesse
+*** Marktformen
+|Anbieter\Nachfrager|viel Kleine|wenige Mittlere|ein Großer|
+|viele Kleine|Polypol (vollständige Konkurzenz)|Nachfrageoligopol|Nachfragemonopol|
+|wenige Mittlere|(Angebots-)Oligopol|bilaterales Oligopol|beschränktes Nachfragemonopol|
+|ein Großer|(Angebots-)Monopol|beschränktes Angebotsmonopol|bilaterales Monopol|
+
++ Polypol :: Es gibt viele Anbieter viele Nachfrager. Die Anbieter stehen untereinander in vollständiger Konkurenz zueinander. Anbieter und Nachfrager haben eine geringe Marktmacht und können dadurch den Marktpreis nicht beeinflussen. 
++ Oligopol :: Es gibt wenige Anbieter und viele Nachfrager. Die Marktmacht liegt bei den Anbietern, wodurch diese direkten Einfluss auf den Martkpreis, Produktionsmenge und Güterqualität haben. Die Anbieter müssen dabei die Reaktionen der Nachfrager und ihrer Konkurenten berücksichtigen. Preissenkungen bei einem Anbieter führen so dazu das die anderen Anbieter ihre Preise ebenfalls senken müssen (Preiskampf/Verdrängungswetbewerb). Arbeiten die Anbieter hingegen zusammen, so können sie den Preis unrechtmäßig erhöhen (Kartellbildung)
++ Monopol :: Es gibt einen Anbieter und viele Nachfrager. Die gesamte Marktmacht liegt beim Anbieter, es gibt keinen Wettbewerb. Der Anbieter legt über die Nachfrage den Preis fest. Den Nachfragern bleibt nur die Möglichkeit über die Menge auf den Preis zu reagieren. Monopolisten neigen dazu den Preis nicht übermäßig zu erhöhen, da dies Konkurenz erzeugen könnte.
+
++ Käufermarkt :: Das Angebot ist groß, der Käufer hat mehr marktmacht und beeinflust durch seine Kaufentscheidung die Preisentwicklung nach unten.
++ Verkäufermarkt :: Die Nachfrage ist groß, der Verkäufer hat mehr marktmacht und beeinflust durch seine Verkaufsentscheidung die Preisentwicklung nach oben..
+
+
 *** Das Unternehmen und sein Umfeld
 *** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
 *** Prozesse im Unternehmen - der Beschaffungsprozess
