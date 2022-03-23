@@ -385,7 +385,8 @@ RAID 10
 *** Fehlersuche im Netzwerk
 *** Fernwartung
 ** Arbeits & Geschäftsprozesse
-*** Marktformen
+*** Das Unternehmen und sein Umfeld
+**** Marktformen
 |Anbieter\Nachfrager|viel Kleine|wenige Mittlere|ein Großer|
 |viele Kleine|Polypol (vollständige Konkurzenz)|Nachfrageoligopol|Nachfragemonopol|
 |wenige Mittlere|(Angebots-)Oligopol|bilaterales Oligopol|beschränktes Nachfragemonopol|
@@ -398,8 +399,23 @@ RAID 10
 + Käufermarkt :: Das Angebot ist groß, der Käufer hat mehr marktmacht und beeinflust durch seine Kaufentscheidung die Preisentwicklung nach unten.
 + Verkäufermarkt :: Die Nachfrage ist groß, der Verkäufer hat mehr marktmacht und beeinflust durch seine Verkaufsentscheidung die Preisentwicklung nach oben..
 
+**** Wirtschaftskreislauf
+Die wirtschaftlichen Zusammenhänge lassen sich als Kreislaufschema darstellen. In diesem Wirtschaftskreislauf gibt es die Aktuere Haushalt, Unternehmen, Staat, Finanzsektor und das Ausland. Zentrale Aktuere sind die Haushalte und Unternehmener. Die Haushalte tauschen bei den Unternehmen ihre Arbeitskraft gegen Gehalt, welches sie dann wieder gegen Güter bei den Unternehmen tauschen. Die Haushalte und Unternehmen zahlen an den Staat Steuern & Sozialversicherungsbeiträge und erhalten im Gegenzug Sozialleistungen und Subventionen sowie Zugang zu Gemeingütern(Schulen, Straßen, etc.). Unternehmen und Haushalte können bei den Finazsektor Geld anlegen und dafür Zinsen bekommen oder aber Kredite aufnehmen und Zinsen zahlen. Schlussendlich können Unternehmer und Haushalte ihr Geld gegen Waren und Dienstleistungen mit dem Ausland tauschen.
 
-*** Das Unternehmen und sein Umfeld
+**** Unternehmensaufbau
+***** Einlinienorganisation
+Lineare Anordnung von Anordnungs- & und Entscheidungsbefugnis. Jede Stelle hat genau einen Vorgesetzten. Dadurch gibt es festgelegte Informationswege. Die Kompetenzbereiche der Stellen überschneiden sich nicht. Die Organisation ist leicht überschaubar. Höherligende Linienstelle können durch zu viele Entscheidungen überlastet und blockiert werden. Unternehmen sind selten, Behörden im Regelfall in der Einlinienorganisation angeordnet.  
+***** Stablinienorganisation
+Die Stablinienorganisation ist einer Erweiterung der Einlinienorganisation. In der Geschäftsführungsebene unterstützt eine Reihe von Spezialisten die oberste Linienstelle bei der Entscheidungsfindung.
+***** Mehrlinienorganisation
+Jede Stelle kann mehrere Vorgesetzte haben. Fachspezifische Anweisungen und Informationen könne so auf direktem Weg kommuniziert werden. Linienstelle können so entlastet werden. Allerdings sind die Kompetenzbereiche nicht eindeutig geklärt, was zu Konflikten innerhalb der Linienstellen führen kann.
+***** Spartenorganisation
+Bei der Spartenorganisation werden auf der zweiten Hierachieebene Organisationseinheiten, die Sparten, nach dem Objektprinzip erstellt. Alle betrieblichen Aufgaben werden durch die Sparten dezentral vom Gesamtunternehmen durchgeführt. Großbetriebe werden oft in ein Hauptunternehmen und mehrere Tochterunternehmen aufgeteilt, welche abhängig vom Hauptunternehmen bleiben. Interaktione unterhalb der Töchterunternehmen werden als Ein und Verkauf behandelt. Dadurch kann der wirtschaftliche Erfolg der einzlen Sparten präzise ermittelt werden.
+***** Matrixsorganisation
+Die Matrixsorganisation ist eine Mehrdimensionale Organisationsform. In der horizontalen Ebene wird das Unternehmen nach dem Funktionsprinzip organisiert. In der Vertikalen Ebene wird das Unternehmen nach dem Objektprinzie organisiert. An den Schnittstellen sitzen die spezifischen Abteilungen. Jede Abteilung hat eine funktionale und eine objektorientierte Linienstelle. Entscheidungen müssen gemeinsam getroffen werden. Kommt es hier zu Problemen, wird die Übergeordnete Unternehmensleitung involviert. Kommunikations-, Kooperations- und Konfliktfähigkeit sowie Teamarbeit ist Grundvorraussetzung für eine funktionierende Matrixsorganisation.
+
+
+
 *** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
 *** Prozesse im Unternehmen - der Beschaffungsprozess
 *** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
