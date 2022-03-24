@@ -389,7 +389,178 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 ** Fernwartung
 * Arbeits & Geschäftsprozesse
 ** Das Unternehmen und sein Umfeld
-** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
+*** Marktformen
+|Anbieter\Nachfrager|viel Kleine|wenige Mittlere|ein Großer|
+|viele Kleine|Polypol (vollständige Konkurzenz)|Nachfrageoligopol|Nachfragemonopol|
+|wenige Mittlere|(Angebots-)Oligopol|bilaterales Oligopol|beschränktes Nachfragemonopol|
+|ein Großer|(Angebots-)Monopol|beschränktes Angebotsmonopol|bilaterales Monopol|
+
++ Polypol :: Es gibt viele Anbieter viele Nachfrager. Die Anbieter stehen untereinander in vollständiger Konkurenz zueinander. Anbieter und Nachfrager haben eine geringe Marktmacht und können dadurch den Marktpreis nicht beeinflussen. 
++ Oligopol :: Es gibt wenige Anbieter und viele Nachfrager. Die Marktmacht liegt bei den Anbietern, wodurch diese direkten Einfluss auf den Martkpreis, Produktionsmenge und Güterqualität haben. Die Anbieter müssen dabei die Reaktionen der Nachfrager und ihrer Konkurenten berücksichtigen. Preissenkungen bei einem Anbieter führen so dazu das die anderen Anbieter ihre Preise ebenfalls senken müssen (Preiskampf/Verdrängungswetbewerb). Arbeiten die Anbieter hingegen zusammen, so können sie den Preis unrechtmäßig erhöhen (Kartellbildung)
++ Monopol :: Es gibt einen Anbieter und viele Nachfrager. Die gesamte Marktmacht liegt beim Anbieter, es gibt keinen Wettbewerb. Der Anbieter legt über die Nachfrage den Preis fest. Den Nachfragern bleibt nur die Möglichkeit über die Menge auf den Preis zu reagieren. Monopolisten neigen dazu den Preis nicht übermäßig zu erhöhen, da dies Konkurenz erzeugen könnte.
+
++ Käufermarkt :: Das Angebot ist groß, der Käufer hat mehr marktmacht und beeinflust durch seine Kaufentscheidung die Preisentwicklung nach unten.
++ Verkäufermarkt :: Die Nachfrage ist groß, der Verkäufer hat mehr marktmacht und beeinflust durch seine Verkaufsentscheidung die Preisentwicklung nach oben..
+
+*** Wirtschaftskreislauf
+Die wirtschaftlichen Zusammenhänge lassen sich als Kreislaufschema darstellen. In diesem Wirtschaftskreislauf gibt es die Aktuere Haushalt, Unternehmen, Staat, Finanzsektor und das Ausland. Zentrale Aktuere sind die Haushalte und Unternehmener. Die Haushalte tauschen bei den Unternehmen ihre Arbeitskraft gegen Gehalt, welches sie dann wieder gegen Güter bei den Unternehmen tauschen. Die Haushalte und Unternehmen zahlen an den Staat Steuern & Sozialversicherungsbeiträge und erhalten im Gegenzug Sozialleistungen und Subventionen sowie Zugang zu Gemeingütern(Schulen, Straßen, etc.). Unternehmen und Haushalte können bei den Finazsektor Geld anlegen und dafür Zinsen bekommen oder aber Kredite aufnehmen und Zinsen zahlen. Schlussendlich können Unternehmer und Haushalte ihr Geld gegen Waren und Dienstleistungen mit dem Ausland tauschen.
+
+*** Unternehmensaufbau
++ Einlinienorganisation :: Lineare Anordnung von Anordnungs- & und Entscheidungsbefugnis. Organisationseinheiten werden nach dem Funktionsprinzip erstellt. Jede Stelle hat genau einen Vorgesetzten. Dadurch gibt es festgelegte Informations- und Entscheidungswege. Unternehmen sind selten, Behörden im Regelfall in der Einlinienorganisation angeordnet.  
+	+ Vorteile
+		+ Die Organisation ist leicht überschaubar.
+		+ Vorgegebene Kommunikationswege und schnelle Entscheidungsfindung.
+		+ Verantwortungsbereichbereiche der Stellen sind klar diffiniert.
+	- Nachteile
+		- Vorgegebene Kommunikationswege
+		- Unflexibel bei Ausfall von höheren Linienstellen.
+		- Entscheidungsträger können durch zu viele Informationen und Entscheidungen überlastet und blockiert werden.
++ Stablinienorganisation :: Die Stablinienorganisation ist einer Erweiterung der Einlinienorganisation. In der Geschäftsführungsebene unterstützt eine Reihe von Experten die oberste Linienstelle bei der Entscheidungsfindung.
+	+ Vorteile
+		+ Die Organisation ist leicht überschaubar.
+		+ Vorgegebene Kommunikationswege und schnelle Entscheidungsfindung.
+		+ Verantwortungsbereiche der Stellen sind klar diffiniert.
+		+ Entscheidungsträger werden in der Entscheidungsfindung unterstüzt.
+	- Nachteile
+		- Vorgegebene Kommunikationswege
+		- Unflexibel bei Ausfall von Entscheidungsträger.
+		- Höhere Kosten
+		- Abhängigkeit von den Experten
++ Mehrlinienorganisation :: Organisationseinheiten werden nach dem Funktionsprinzip erstellt.  Jede Stelle kann mehrere Vorgesetzte haben. Fachspezifische Anweisungen und Informationen könne so auf direktem Weg kommuniziert werden.
+	+ Vorteile
+		+ Entlastung der Entscheidungsträger.
+		+ Spezialisierung der Entscheidungsträger.
+		+ Flexibel bei Ausfall von Entscheidungsträger.
+		+ Flexibel Kommunikationswege und schnelle Entscheidungsfindung.
+	- Nachteile 
+		- Verantwortungsbereiche nicht eindeutig festgelegt.
+		- Wiedersprüchliche Informationen können von meheren Entscheidungsträgern gegeben werden
++ Spartenorganisation :: Bei der Spartenorganisation werden auf der zweiten Hierachieebene Organisationseinheiten, die Sparten, nach dem Objektprinzip erstellt. Alle betrieblichen Aufgaben werden durch die Sparten dezentral vom Gesamtunternehmen durchgeführt. 
+	+ Vorteile
+		+ Bessere Entscheidungsfindung
+		+ Spezialisierung der Entscheidungsträger
+		+ Bessere Beurteilung der Leistung
+		+ Bessere Anpassungsfähigkeit
+	- Nachteile
+		- Hoher Verwaltungsaufwand
+		- Bestimmte Funktionsbereiche exsistieren mehrfach
++ Matrixsorganisation :: Die Matrixsorganisation ist eine Mehrdimensionale Organisationsform. In der horizontalen Ebene wird das Unternehmen nach dem Funktionsprinzip organisiert. In der Vertikalen Ebene wird das Unternehmen nach dem Objektprinzie organisiert. An den Schnittstellen sitzen die spezifischen Abteilungen. Jede Abteilung hat eine funktionale und eine objektorientierten Entscheidungsträger.
+	+ Vorteile
+		+ Wegfall von Hierarchien
+		+ Kurze Kommunikationswege
+		+ Fördert Teamarbeit
+	- Nachteile
+		- Hoher Abstimmungsaufwand
+		- Langsame Entscheidungsfindung
+		- Kbereiche nicht eindeutig festgelegt.
+*** Führungsstile
++ Autoritär :: Dieser Stil betont die Hierarchie zwischen Mitarbeitenden und der Führungskraft. Die Führungskraft gibt Entscheidungen vor, die Angestellten müssen sie entsprechend ausführen. Die Ergebnisse kontrolliert der/die Manager:in engmaschig. So entstehen eine klare Trennung und eine distanzierte Beziehung zwischen ihnen.
+	+ Vorteile
+		+ schnelle Entscheidungsfindung
+		+ Klare Verantwortungsbereiche
+	- Nachteile
+		- Unterdrückt Eigeninitative im Team
+		- Starke Auslastung der Führungskraft
++ Kooperativ :: Dieser Führungsstil wird oft auch als demokratisch bezeichnet. Denn hier bezieht die Führungskraft ihre Teammitglieder bei Entscheidungen mit ein. Entsprechend liegt der Fokus auf eigenverantwortlichem Handeln und Eigenkontrolle der Mitarbeitenden.
+	+ Vorteile
+		+ Entlastung der Führungskraft
+		+ Gesteigertes Verantwortungsbewussein im Team
+	- Nachteile
+		- Langsame Entscheidungsfindung
+		- Entscheidungen des Verantwortlichen können übergangen werden
++ Laissez-Faire :: Der Name ist Programm – die Angestellten haben komplette Freiheit und bestimmten ihre Aufgaben selbst. Die Führungskraft lässt sie komplett gewähren. Entscheidungen fällt das Team gemeinsam.
+	+ Vorteile
+		+ Mitarbeiter setzen ihre individuelle Fähigkeiten ein
+	+ Nachteile
+		- Fehlende Koordination und Absprache
+		- Orientriung fehlt
+
+*** Führungstechniken
++ Managment by Delegation :: Führende delegieren komplette Aufgaben und geben konkrete Ziele vor.
+	+ Vorteile
+		+ Mehr Mitarbeitermotivation durch Übertragung von Verantwortung
+		+ Einbeziehung der Mitarbeiter in die unternehmerischen Ziele
+		+ Stärkere Bindung der Mitarbeiter an das Unternehmen
+		+ Entlastung der Führenden
+		+ Beseitigung starrer Hierarchie und Entscheidungsbefugnisse
+	- Nachteile
+		- Regelmäßige Kontrolle der Mitarbeiter notwendig
+		- Kontrolle kann auf Beschäftigte demotivierend wirken
+		- Übertragung von Routineaufgaben kann demotivierend wirken
+		- Gefahr von Unterforderung als auch Überforderung
+		- Aufgaben werden evtl. nicht wie gewünscht umgesetzt
++ Managment by Objectives :: Führende und Geführte erarbeiten gemeinsam Ziele für konkrete Aufgaben.
+	+ Vorteile
+		+ Integration der Mitarbeiter in Zielsetzungsprozesse
+		+ Mitarbeitermotivation durch mehr Verantwortung und Boni
+		+ Stärkere Mitarbeiterbindung
+		+ Verknüpfung von Zielen der Organisation und individuellen Zielen
+		+ Entlastung von Führungskräften
+	- Nachteile
+		- Führungskräfte müssen Kontrollaufgaben übernehmen
+		- Steigender Leistungsdruck für Mitarbeiter durch Zielvorgabe
+		- Funktioniert ohne Anreizsystem nicht
+		- Gefahr, dass sich Mitarbeiter nur auf persönliche Ziele fokussieren und das Gesamtbild aus dem Auge verlieren
+		- Durch die Zielfokussierung steigt die Gefahr, dass qualitative Aspekte der Arbeit vernachlässigt werden
++ Managment by Exception :: Der Führende greift nur in Ausnahmefällen ein und hält sich in Normalfällen zurück.
+	+ Vorteile
+		+ Entlastung der Führungskräfte von Routineaufgaben
+		+ Geringerer Kontrollaufwand als bei anderen Management by Techniken
+		+ Höhere Motivation der Mitarbeiter durch selbstständige Arbeit in ihren Kompetenzbereichen
+	- Nachteile
+		- Mitarbeiter können dazu neigen, schlechte Ergebnisse zu verschleiern
+		- In der Regel Beschränkung der Mitarbeiter auf Routineaufgaben
+		- Richtige Balance zwischen Eingriffen und Eigenverantwortung ist eine Herausforderung.
+		- Unzureichende Kontrollen können zu schlechten Ergebnissen führen
++ Managment by Decision Rules :: Ein Regelwerk schreibt den Geführten nach dem „Wenn-Dann-Prinzip“ vor, was in bestimmten Situationen zu tun ist.
+	+ Vorteile
+		+ Deutliche Entlastung der Führenden insbesondere von Routineaufgaben
+		+ Steuerung und Kontrolle von Mitarbeiterverhalten wird durch festes Regelwerk vereinfacht
+		+ Unternehmensziele und (Routine-) Aufgaben können sehr gut aufeinander abgestimmt werden
+	- Nachteile
+		- Beschränkung des Führungskonzepts auf Routineaufgaben
+		- Das Regelwerk kann nicht alle möglichen Szenarien abdecken
+		- Starke Formalisierung und Strukturierung der Arbeit durch einfache Regeln
+		- Fehlende Motivation der Mitarbeiter, da Eigenverantwortung durch ein starres Regelwerk ersetzt wird
++ Managment by Systems :: Ganzheitliche Methode, die verschiedene Management by Techniken einsetzt, mit der alle Abläufe eines Unternehmens optimiert werden können.
+	+ Vorteile
+		+ Entlastung der Führungskräfte insbesondere durch Routineaufgaben
+		+ Optimierung von Arbeitsabläufen vor allem im Verwaltungsbereich
+		+ Kostenreduktion insbesondere im Verwaltungskontext
+		+ Klare Regeln und Strukturen auf allen Ebenen vereinfachen die Kommunikation
+	- Nachteile
+		- Höherer Grad an Bürokratie
+		- Schwierige Implementierung
+		- Fehlende Flexibilität in Ausnahmesituationen oder bei Innovationsprozessen
+		- Demotivation von Mitarbeitern durch kaum vorhandene Eigenverantwortung und ein starres Regelsystem
+		
+*** Handlungsvollmachten & Prokurat
+Handlungsvollmachten können einfach und formfrei vergeben werden und müssen nicht im Handelsregister eingetragen werden. 
++ Allgemeine Handlungsvollmacht :: berechtigt zu allen gewöhnlichen Geschäften und Rechtshandlungen, die in einem Unternehmen anfallen, durchzuführen.
++ Artvollmacht :: berechtigt  bestimmte, wiederkehrende Geschäfts und Rechtshandlungen für das Unternehmen durchzuführen.
++ Einzelvollmacht :: berechtigt ein bestimmtes Geschäft oder Rechtshandlung für das Unternehmen durchzuführen.
+
+Nur eingetragene Handelsgesellschaften können ein Prokurat erteilen, diese muss im Handelsregister eingetragen werden. Der Prokurist ist berechtigt alle Geschäften und Rechtshandlungen des Unternehmens durchzuführen.
+
+** Unternehmensziele und Wirtschaftlichkeitsüberlegungen
+Das Unternehmensleitbild beschreibt das Selbstverständnis eines Unternhemens. Aus dem Leitbild lassen sich die Unternehmensziele ableiten:
++ Ökonomische Ziele
+	+ Kostenreduktion
+	+ Gewinnmaximierung
+	+ Marktanteil erhöhen
+	+ Marktführerschaft
+	+ Expansion
++ Ökologische Ziele
+	+ Energieverbrauch senken
+	+ Recyclingquote erhöhen
+	+ Nutzung regenerativer Energien
++ Soziale Ziele
+	+ Arbeitsplätze schaffen
+	+ Arbeitsplätze sichern
+	+ Arbeitsbedingungen verbessern
+
+Unternehmensziele können sich ergänzen, untereinander unabhängig sein oder sich wiedersprechen. Ziele müssen dafür priorisiert werden. Diese Priorisirung und die Zielerfüllung muss reglmäßig überprüft werden. Hierfür gibt es eine Reihe von Kennzahlen:
+ 
 ** Prozesse im Unternehmen - der Beschaffungsprozess
 ** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
 ** Auftragseingangprozesse im Unternehmen und Preisbildung
