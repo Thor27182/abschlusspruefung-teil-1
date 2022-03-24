@@ -530,9 +530,35 @@ Die wirtschaftlichen Zusammenhänge lassen sich als Kreislaufschema darstellen. 
 		- Schwierige Implementierung
 		- Fehlende Flexibilität in Ausnahmesituationen oder bei Innovationsprozessen
 		- Demotivation von Mitarbeitern durch kaum vorhandene Eigenverantwortung und ein starres Regelsystem
+		
+**** Handlungsvollmachten & Prokurat
+Handlungsvollmachten können einfach und formfrei vergeben werden und müssen nicht im Handelsregister eingetragen werden. 
++ Allgemeine Handlungsvollmacht :: berechtigt zu allen gewöhnlichen Geschäften und Rechtshandlungen, die in einem Unternehmen anfallen, durchzuführen.
++ Artvollmacht :: berechtigt  bestimmte, wiederkehrende Geschäfts und Rechtshandlungen für das Unternehmen durchzuführen.
++ Einzelvollmacht :: berechtigt ein bestimmtes Geschäft oder Rechtshandlung für das Unternehmen durchzuführen.
 
-*** Unternehmensziele und Wirdschaftlichkeitsüberlegungen
-Das Unternehmensleitbild beschreibt das Selbstverständnis eines Unternhemens.
+Nur eingetragene Handelsgesellschaften können ein Prokurat erteilen, diese muss im Handelsregister eingetragen werden. Der Prokurist ist berechtigt alle Geschäften und Rechtshandlungen des Unternehmens durchzuführen.
+
+*** Unternehmensziele und Wirtschaftlichkeitsüberlegungen
+Das Unternehmensleitbild beschreibt das Selbstverständnis eines Unternhemens. Aus dem Leitbild lassen sich die Unternehmensziele ableiten:
++ Ökonomische Ziele
+	+ Kostenreduktion
+	+ Gewinnmaximierung
+	+ Marktanteil erhöhen
+	+ Marktführerschaft
+	+ Expansion
++ Ökologische Ziele
+	+ Energieverbrauch senken
+	+ Recyclingquote erhöhen
+	+ Nutzung regenerativer Energien
++ Soziale Ziele
+	+ Arbeitsplätze schaffen
+	+ Arbeitsplätze sichern
+	+ Arbeitsbedingungen verbessern
+
+Unternehmensziele können sich ergänzen, untereinander unabhängig sein oder sich wiedersprechen. Ziele müssen dafür priorisiert werden. Diese Priorisirung und die Zielerfüllung muss reglmäßig überprüft werden. Hierfür gibt es eine Reihe von Kennzahlen:
+ 
+
 *** Prozesse im Unternehmen - der Beschaffungsprozess
 *** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
 *** Auftragseingangprozesse im Unternehmen und Preisbildung
