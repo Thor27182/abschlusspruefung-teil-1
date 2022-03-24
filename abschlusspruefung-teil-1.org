@@ -314,6 +314,7 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 ** IT-Sicherheitsgesetz
 ** Überblick IT-Sicherheit
 ** Verschlüsselungsverfahren
+* it-Systeme
 ** Datensicherungskonzepte
 + Vollbackup
   - Der Speicherstand soll konsitent gesichert werden
