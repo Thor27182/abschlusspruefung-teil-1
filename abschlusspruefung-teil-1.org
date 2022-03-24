@@ -314,7 +314,6 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 ** IT-Sicherheitsgesetz
 ** Überblick IT-Sicherheit
 ** Verschlüsselungsverfahren
-* it-Systeme
 ** Datensicherungskonzepte
 + Vollbackup
   - Der Speicherstand soll konsitent gesichert werden
@@ -390,10 +389,11 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 * Arbeits & Geschäftsprozesse
 ** Das Unternehmen und sein Umfeld
 *** Marktformen
-|Anbieter\Nachfrager|viel Kleine|wenige Mittlere|ein Großer|
-|viele Kleine|Polypol (vollständige Konkurzenz)|Nachfrageoligopol|Nachfragemonopol|
-|wenige Mittlere|(Angebots-)Oligopol|bilaterales Oligopol|beschränktes Nachfragemonopol|
-|ein Großer|(Angebots-)Monopol|beschränktes Angebotsmonopol|bilaterales Monopol|
+| Anbieter\Nachfrager | viel Kleine                       | wenige Mittlere              | ein Großer                    |
+|---------------------+-----------------------------------+------------------------------+-------------------------------|
+| *viele Kleine*      | Polypol (vollständige Konkurzenz) | Nachfrageoligopol            | Nachfragemonopol              |
+| *wenige Mittlere*   | (Angebots-)Oligopol               | bilaterales Oligopol         | beschränktes Nachfragemonopol |
+| *ein Großer*        | (Angebots-)Monopol                | beschränktes Angebotsmonopol | bilaterales Monopol           |
 
 + Polypol :: Es gibt viele Anbieter viele Nachfrager. Die Anbieter stehen untereinander in vollständiger Konkurenz zueinander. Anbieter und Nachfrager haben eine geringe Marktmacht und können dadurch den Marktpreis nicht beeinflussen. 
 + Oligopol :: Es gibt wenige Anbieter und viele Nachfrager. Die Marktmacht liegt bei den Anbietern, wodurch diese direkten Einfluss auf den Martkpreis, Produktionsmenge und Güterqualität haben. Die Anbieter müssen dabei die Reaktionen der Nachfrager und ihrer Konkurenten berücksichtigen. Preissenkungen bei einem Anbieter führen so dazu das die anderen Anbieter ihre Preise ebenfalls senken müssen (Preiskampf/Verdrängungswetbewerb). Arbeiten die Anbieter hingegen zusammen, so können sie den Preis unrechtmäßig erhöhen (Kartellbildung)
@@ -401,7 +401,7 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 
 + Käufermarkt :: Das Angebot ist groß, der Käufer hat mehr marktmacht und beeinflust durch seine Kaufentscheidung die Preisentwicklung nach unten.
 + Verkäufermarkt :: Die Nachfrage ist groß, der Verkäufer hat mehr marktmacht und beeinflust durch seine Verkaufsentscheidung die Preisentwicklung nach oben..
-
+*** 
 *** Wirtschaftskreislauf
 Die wirtschaftlichen Zusammenhänge lassen sich als Kreislaufschema darstellen. In diesem Wirtschaftskreislauf gibt es die Aktuere Haushalt, Unternehmen, Staat, Finanzsektor und das Ausland. Zentrale Aktuere sind die Haushalte und Unternehmener. Die Haushalte tauschen bei den Unternehmen ihre Arbeitskraft gegen Gehalt, welches sie dann wieder gegen Güter bei den Unternehmen tauschen. Die Haushalte und Unternehmen zahlen an den Staat Steuern & Sozialversicherungsbeiträge und erhalten im Gegenzug Sozialleistungen und Subventionen sowie Zugang zu Gemeingütern(Schulen, Straßen, etc.). Unternehmen und Haushalte können bei den Finazsektor Geld anlegen und dafür Zinsen bekommen oder aber Kredite aufnehmen und Zinsen zahlen. Schlussendlich können Unternehmer und Haushalte ihr Geld gegen Waren und Dienstleistungen mit dem Ausland tauschen.
 
