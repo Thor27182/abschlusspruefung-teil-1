@@ -389,11 +389,11 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
 * Arbeits & Geschäftsprozesse
 ** Das Unternehmen und sein Umfeld
 *** Marktformen
-| Anbieter\Nachfrager | viel Kleine                       | wenige Mittlere              | ein Großer                    |
-|---------------------+-----------------------------------+------------------------------+-------------------------------|
-| *viele Kleine*      | Polypol (vollständige Konkurzenz) | Nachfrageoligopol            | Nachfragemonopol              |
-| *wenige Mittlere*   | (Angebots-)Oligopol               | bilaterales Oligopol         | beschränktes Nachfragemonopol |
-| *ein Großer*        | (Angebots-)Monopol                | beschränktes Angebotsmonopol | bilaterales Monopol           |
+| /Anbieter\Nachfrager/ | *viel Kleine*                     | *wenige Mittlere*            | *ein Großer*                  |
+|-----------------------+-----------------------------------+------------------------------+-------------------------------|
+| *viele Kleine*        | Polypol (vollständige Konkurzenz) | Nachfrageoligopol            | Nachfragemonopol              |
+| *wenige Mittlere*     | (Angebots-)Oligopol               | bilaterales Oligopol         | beschränktes Nachfragemonopol |
+| *ein Großer*          | (Angebots-)Monopol                | beschränktes Angebotsmonopol | bilaterales Monopol           |
 
 + Polypol :: Es gibt viele Anbieter viele Nachfrager. Die Anbieter stehen untereinander in vollständiger Konkurenz zueinander. Anbieter und Nachfrager haben eine geringe Marktmacht und können dadurch den Marktpreis nicht beeinflussen. 
 + Oligopol :: Es gibt wenige Anbieter und viele Nachfrager. Die Marktmacht liegt bei den Anbietern, wodurch diese direkten Einfluss auf den Martkpreis, Produktionsmenge und Güterqualität haben. Die Anbieter müssen dabei die Reaktionen der Nachfrager und ihrer Konkurenten berücksichtigen. Preissenkungen bei einem Anbieter führen so dazu das die anderen Anbieter ihre Preise ebenfalls senken müssen (Preiskampf/Verdrängungswetbewerb). Arbeiten die Anbieter hingegen zusammen, so können sie den Preis unrechtmäßig erhöhen (Kartellbildung)
