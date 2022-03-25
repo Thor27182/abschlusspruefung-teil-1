@@ -276,8 +276,8 @@ Hat ein Unternehmen mit personenbezogenen Daten zu tun, muss ein Datenschutzbeau
 + Daten werden geschäftsmäßig erhoben und weitergegeben.
 + Der Verarbeitungszweck liegt bei der systematischen und umfangrichen Überwachung der betroffenen Personen.
 
-** Standard-Datenschutzmodelle
-Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodell überprüft werden. Dafür definiert das Modell sieben Gewährleistungsziele:
+
+Die Einhaltung der Rechtsvorschrifften können mit des *Standard-Datenschutzmodell* überprüft werden. Dafür definiert das Modell sieben Gewährleistungsziele:
 + Datenminimierung :: Die Datenmenge zu einer Person muss so gering wie möglich gehalten werde. Dies wird dadurch erreicht,
 	- das nur Daten erhoben werden, die benötigt werden.
 	- das Daten nur solange gespeichert werden wie nötig
@@ -314,50 +314,65 @@ Die Einhaltung der Rechtsvorschrifften können mit des Standard-Datenschutzmodel
   + Trojaner :: Software, welche sich als eine sinnvolle Anwendung tarn, unbefugten aber Zugriff auf das System durch eine Hintertür gewert. 
   + Virus :: Software die sich selbst verbreitet und in Dateien einnistet. Durch Benutzerinteraktion mit den infizierten Dateien wird das Virus ausgeführt. Viren können das System auf unterschiedliche Art beeinträchtigen, vom auslösen von harmlosen Störungen über Datenverlust bishin zu Hardwareschäden.
   + Wurm :: Software die sich selbst verbreitet. Würmer warten nicht auf Benutzerinteraktonen sondern versuchen sich aktiv selber zu verbreiten. Würmer können das System auf unterschiedliche Art beeeinträchtigen, vom auslösen harmlose Störungen, über Datenverluste bishin zu Hardwareschäden. 
-+ Botnet :: 
++ Botnet ::  Durch Maleware werden Rechner unbemerkt übernommen und und untereinander vernetzt. So kann Rechenleistung geklaut werden oder aber ein DDoS-Angriff ausgeführt werden. 
 + Disterbuted Denail of Service *DDoS* :: Ein Dienst wird mit sovielen Anfragen zeitgleich überfordert, sodass er seine eigendliche Aufgabe nicht mehr wahr nehmen kann. 
-+ Advanced Persistent Threats *APT* ::
-** Maßnahmen gegen Gefährdung der IT-Sicherheit
++ Advanced Persistent Threats *APT* :: Eine lanfristig geplanter und intensiev vorbereiteter Angriff um eine IT-Infrastruktur dauerhaft zu kompromittieren. Kombiniert eine Vielzahl von Angriffsmethoden.
+
 ** IT-Grundschutz
+Der IT-Grundschutz ist eine vom BSI (Bundesamt für Sicherheit in der Informationstechnik) entwickelter Leitfaden zum Aufbau eines Informationssicherheitsmanagmentsystems ISMS und zur Erhöhung der IT-Sicherheit. Der Grundschutz ist aquivalent zu der Norm ISO-27001. Dafür Wird ein Sicherheitsleitfaden erstellt, welcher stellenwert, Prinzipien und Niveau definiert. Auf diesem aufbauend wird das Sicherheitskonzept entwickelt, welches Konkrete Maßnamen implementiert. Das Sicherheitskonzept wird itereativ überwacht:
++ Ist-Zustand feststellen
++ Schutzbedarf feststellen
++ Auswahl der Sicherheitsanforderung
++ Realisierung der Maßnahmen
+
 ** Schutzbedarfsfeststellung
-** IT-Sicherheitsgesetz
-** Überblick IT-Sicherheit
+Bei der Schutzbedarfsfeststellung werden 3 Schutzziele definiert:
++ Vertraulichkeit :: Auf die Daten dürfen Unbefugente nicht zugreifen.
++ Integrität :: Die Daten und das System müssen korrekt sein und vor manipulation geschützt werden.
++ Verfügbarkeit :: Befugte haben Zugang zu den Daten und dem System.
+
+Daten und Teilsysteme werden nach diesen Schutzzielen bewertet.
+
 ** Verschlüsselungsverfahren
++ Symmetrische Verschlüsselung :: Für die Verschlüsselung und Entschlüsselung einer Nachricht wird der gleiche geheime Schlüssel verwendet. Das Verfahren ist solange sicher, solange der Schlüssel nur Sender und Empfänger bekannt ist.
++ Asymmetrische Verschlüsselung :: Dieses Verfahren verwendet zwei Schlüssel, einen öffentlichen Schlüssel und einen privaten Schlüssel. Der Sender verschlüsselt die Nachricht mit dem öffentlichen Schlüssel, der Empfänger Entschlüsselt die Nachricht mit dem privaten Schlüssel. 
+
+OpenPGP (Pretty Goog Privace) ist eine offener, sehr sicherer Standard für die Verschlüsselung. Es ist ein hybrides Verfahren aus asymmetrischer und symmetrischer Verschlüsselung. Schlüssel können zudem über Zertifikate eindeutig zugeordent werden.
+
 ** Datensicherungskonzepte
-+ Vollbackup
-  - Der Speicherstand soll konsitent gesichert werden
-    - File und Datenbanksicherung
-    - Außerhalb der Arbeitszeiten
-    - Ablauf
-      + user ausloggen
-      + Dienste stoppen
-      + Datenbank herrunter fahren
-      + Backup auf externes Medium durchführen
-      + Datenbank hoch fahren
-      + Dienste starten
-    - Vorteile
++ Vollbackup :: Ein vollständiges Abbild der Daten bzw. des Systems.
+    + Vorteile
       + Nur ein File für die Herrstellung
       + Basis für weitere Backup-Varianten
     - Nachteile
-      + Zeitintensiv
-      + hoher Speicherbedarf	
-+ Differenzielles Backup
-  - Ablauf
-    + Vollsicherung
-    + Alle Änderungen nach dem Letzten Vollbackup finden
-  - Vorteile
-    + Speichersparend
+      - Zeitintensiv
+      - hoher Speicherbedarf	
++ Differenzielles Backup :: Bei der differenziellen Sicherung wird der Datenbestand mit dem letzten Vollbackup verglichen und alle Änderungen gespeichert. Für die Wiederherstellung wird sowohl das Vollbackup als auch das diferenzielle Backup benötigt
+  + Vorteile
+    + Speichersparend bei seltener Anwendung
     + Wiederherstellungsaufwand ist Relativ gering F+D
   - Nachteile
-    + S
-  - Filesicherungskonzept
-+ Incremental Backup
-  - Es werden nur die Änderungen seit dem letzten Backup gesichert.
+    - Hoher Speicherbedarf bei mehrfacher Anwendung
++ Incremental Backup :: Bei dem inkrementellen Backup wird der Datenbestand mit dem letzten Vollbackup verglichen und alle Änderungen werden gespeichert. Damit ist es Ähnliich dem differenzielen Backup. Der Unterschied findet bei weiteren Backups statt, denn das nächste incrementelle Backup vergleicht den datenbestand nur mit dem letzten incrementellen Backup und speichert den Unterschied zu diesem. Für die Wiederherstellung werden das letzte Vollbackup und alle incrementellen Backups   
   - Vorteile
     + Schnelle umsetzung
     + Speichersparend
   - Nachteil
     + Hoher Wiederherstellungsaufwand (F+n*I)
+ 
+Backups sollten nach dem Generationenprinzip auch /"Großvater-Vater-Sohn-Prinzip"/ erstellt werden. Es ist ein Rotationsschema das dafür sorgt, dass mehrere Sicherungsstände, am besten auf mehreren Medien, vorhanden sind.
++ Taglich wird ein Sohn-Backup erstellt
++ Am Wochenende wird ein Vater-Backup erstellt, 
+
+
+
+
+
+Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
++ 3 Kopien der Daten :: Neben den Arbeitsdaten sollten zwei Sicherungskopien existieren. Dies schützt vor ungewolltem Löschen.
++ 2 verschidene Medien :: Die Sicherungskopien sollten auf zwei verschidenen Medien vorliegen, um einen Hardwareausfall zu kompensieren.
++ 1 externe Sicherungskopie :: Eine Sicherungskopie sollte am besten an einem ganz anderen Ort, min. in einem anderen Brandabschnitt, befinden um einen Verlust durch Feuer, Wasserschaden, Diebstahl, etc. vorzubeugen.
++ 0 Off-Line Backup :: Ein Backup sollte offline um es von Angriffen durch Ransomware zu schützen. 
 
 * it-Systeme
 ** Konzeption einer IT-Ausstattung
