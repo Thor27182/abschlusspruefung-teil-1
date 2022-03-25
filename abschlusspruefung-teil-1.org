@@ -22,10 +22,10 @@ An einem Projekt sind oft zwei oder mehr Parteien beteiligt, welche untereinande
 + Staatliche Institutionen
 
 Projekte lassen sich in 4 Phasen einteilen:
-1. Projektdefinition   :: In der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* festgelegt.  
-2. Projektplanung      :: In der Projektplanung wird der zeitliche Ablauf des Projekt mittels eines *Gantt-Diagramm* auf die Deadline ausgerichtet.
-3. Projektdurchführung :: In der Projektdurchführung werden die einzelene Arbeitsschritte ausgeführt. Die erreichten Zwischenergebnisse werden *Meilensteine* genannt.
-4. Projektabschluss    :: Zum Projektabschluss wird das Gesamtergebniss in einem *Abschlussbericht* dokumentiert.
++ Projektdefinition   :: In der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* festgelegt.  
++ Projektplanung      :: In der Projektplanung wird der zeitliche Ablauf des Projekt mittels eines *Gantt-Diagramm* auf die Deadline ausgerichtet.
++ Projektdurchführung :: In der Projektdurchführung werden die einzelene Arbeitsschritte ausgeführt. Die erreichten Zwischenergebnisse werden *Meilensteine* genannt.
++ Projektabschluss    :: Zum Projektabschluss wird das Gesamtergebniss in einem *Abschlussbericht* dokumentiert.
 
 Während der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* festgelegt. Die Machbarkeitsstudie ist eine Umfangreiche Studie, welche das Projekt aus technischer und wirtschaftlicher untersucht und die verschidenen Perspektiven der Projektteilnehmer betrachtet. Die Stakeholderanalyse und die Risikoanalyse sind Bestandteil der Machbarkeitsstudie.
 + Stakeholderanalyse :: Zeigt die Erwartungen der einzelnen Projektbeteiligten und identifiziert Probleme wie z.B. gegenläufige Ziele
@@ -34,11 +34,11 @@ Während der Projektdefinition wird das Ziel mittels einer *Machbarkeitsstudie* 
 Während des Projekt ist es wichtig die Stakeholder und Risiken zu verwalten. Beim Stakeholder-Managment werden die werden die Stakeholder regelmäßig analysiert und die erwartungen dokumentiert. 
 
 Das Risikomanagement befasst sich mit folgenden Schritten:
-1. Identifikation :: Beschreibung ihrer Art und ihrer Ursachen.
-2. Analyse :: Eintrittswahrscheinlichkeit und Auswirkungen.
-3. Priorisierung :: Aufgrundlage der Analyse die werden die Risiken nach vorgegebenen Kriterien bewertet.
-4. Bewältigung :: Maßnahmen um die Eintrittswahrscheinlichkeit oder die Auswirkungen zu minimieren.
-5. Überwachung :: Überwachung der Eintrittswahrscheinlichkeit.
++ Identifikation :: Beschreibung ihrer Art und ihrer Ursachen.
++ Analyse :: Eintrittswahrscheinlichkeit und Auswirkungen.
++ Priorisierung :: Aufgrundlage der Analyse die werden die Risiken nach vorgegebenen Kriterien bewertet.
++ Bewältigung :: Maßnahmen um die Eintrittswahrscheinlichkeit oder die Auswirkungen zu minimieren.
++ Überwachung :: Überwachung der Eintrittswahrscheinlichkeit.
 
 ** Netzplan
 Im Netzplan werden alle Vorgänge eines Projekts nach ihren Abhängigkeiten und Reihenfolgen verkettet und grafisch dargestellt. Er stellt einen ersten Entwurf eines Ablaufplans dar und gibt Informationen darüber, wie Vorgänge verschoben werden können. Zudem können zeitkritische Vorgänge identifiziert werden und als kritische Pfad markiert werden.
@@ -51,7 +51,7 @@ Im Netzplan gibt es folgende Objekte:
     - SAZ :: spätester Anfangszeitpunkt (SAZ = SEZ - D)
     - SEZ :: spätester Endzeitpunkt 
     - GP :: Gesamtpuffer beschreibt, wie weit ein Vorgang verschoben oder verlängert werden kann, ohne das es Einfluss auf das Projektende hat. (GP =  SEZ - FEZ)
-    - FP :: freier Puffer beschreibt, wie weit ein Vorgang verschoben oder verlängert werden kann, ohne das es Einfluss auf die benachbarten Vorgänge hat. (FP = FAZ nachfolger - FEZ Vorgänger)
+    - FP :: freier Puffer beschreibt, wie weit ein Vorgang verschoben oder verlängert werden kann, ohne das es Einfluss auf die benachbarten Vorgänge hat. (FP = FAZ nachfolger - FEZ)
     - kritische Pfad :: Der Kritische Pfad beschreibt alle Knoten, bei den eine Verzögerung direkten Einfluss auf das Projektende hat. Jeder Vorgang mit einem Gesamtpuffer von 0 liegt auf dem kritischen Pfad. Diese Vorgänge bestimme die Gesamtprojektdauer.
 + Anordnungsbeziehungen
 
@@ -72,7 +72,7 @@ Erstellen eines Netzplan:
     + SEZ der Vorgänger bestimmen: min(SAZ Nachfolger)
 5. Pufferzeiten berechnen
     + GP = SEZ - FEZ
-    + FP = FAZ Nachfolger - FEZ Vorgänger
+    + FP = FAZ Nachfolger - FEZ
 6. Kritischer Pfad markieren. Alle Knoten mit einem GP von 0 bilden den Kritischen Pfad
 
 Im Netzplan gibt es keine genaue zeitliche Einordnung.
@@ -91,12 +91,12 @@ Erstellen eines Gantt-Diagramm
 
 ** Wasserfallmodelle
 Das Wasserfallmodell ist ein lineares Vorgehensmodel für die durchführung von Projekten. In einem Top-Down Ansatz wird das Projekt von einem von einem abstrakten Startpunkt zu einem konkreten Ziel gebracht. Dafür wird das Projekt in verschidene Phasen eingeteilt:
-1. Planung (Lastenheft & Projektplan) :: Der Auftraggeber definiert, unter möglicher einbeziehung des Auftragnehmers, die Anforderungen ( *Was & Wofür* ) an die Software und die zeitliche Entwicklung und die Meilensteine des Projekts
-2. Definition (Pflichtenheft) :: Der Auftragnehmer definiert in konkreter Form, *wie & womit* er die Anforderungen im Pflichtenheft umsetzen wird.
-3. Design (Softwarearchitektur) :: Der Auftragnehmer erstellt Struktogramme, die die Softwarearchitektur beschreiben.
-4. Implementierung (Programmierung & Modultests) :: Der Auftragnehmer erstellt die Software
-5. Test (Testprotokoll) :: Der Auftragnehmer teste, gegebenenfalls in Zusammnenarbeit mit dem Auftraggeber, die Software
-6. Einsatz & Wartung (Abnahmeprotokoll & Servicerequests) :: Der Auftragnehmer nimmt die Software in Betrieb. Im Laufe der Betriebszeit gefundene Fehler werden gemeldet und behoben.
++ Planung (Lastenheft & Projektplan) :: Der Auftraggeber definiert, unter möglicher einbeziehung des Auftragnehmers, die Anforderungen ( *Was & Wofür* ) an die Software und die zeitliche Entwicklung und die Meilensteine des Projekts
++ Definition (Pflichtenheft) :: Der Auftragnehmer definiert in konkreter Form, *wie & womit* er die Anforderungen im Pflichtenheft umsetzen wird.
++ Design (Softwarearchitektur) :: Der Auftragnehmer erstellt Struktogramme, die die Softwarearchitektur beschreiben.
++ Implementierung (Programmierung & Modultests) :: Der Auftragnehmer erstellt die Software
++ Test (Testprotokoll) :: Der Auftragnehmer teste, gegebenenfalls in Zusammnenarbeit mit dem Auftraggeber, die Software
++ Einsatz & Wartung (Abnahmeprotokoll & Servicerequests) :: Der Auftragnehmer nimmt die Software in Betrieb. Im Laufe der Betriebszeit gefundene Fehler werden gemeldet und behoben.
 
 Vorteile:
 + Klare Abgrenzungen der Phasen
@@ -145,13 +145,13 @@ Eine Methode ist ein formalisierter, allgemeiner Ablauf, der sich bewährt hat.
 + Feature Driven Development
 + Scrum
 *** Scrum
-Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansatz im Vordergrund, der den Entwicklungsprozess in Sprints einteilt. Ein Sprint ist eine Zeiteinheit von min. einer Woche bis max. vier Wochen. Zudem definiert Scrum die drei Rollen Productowner, Scrummaster und Team, welche verschidene funktionen innerhalb der Einzelen Phasen einse Sprint inne haben.
+Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansatz im Vordergrund, der den Entwicklungsprozess in Sprints einteilt. Ein Sprint ist eine Zeiteinheit von min. einer Woche bis max. vier Wochen. Zudem definiert Scrum die drei Rollen Product Owner, Scrum Master und Team, welche verschidene Funktionen innerhalb der Einzelen Phasen einse Sprint inne haben.
 
-1. Product Backlog :: Der Product Owner bildet eine Schnittstelle zwischen dem Team und dem Kunden. Er initiiert das Product Backlog, indem er, auch in zusammenarbeit mit den Stakeholdern (Kunden, Investoren, dem Team, etc.), einen ersten Lösungsversuch definiert.
-2. Sprint Planning & Sprint Backlog :: Bevor der Sprint gestartet wird,muss der Sprint geplant werden. Dafür wird vom Productowner der Product Backlog vorgestellt. Das Team entscheidet selbständig, welche und wieviele Anforderungen sie in Ihren Sprint Backlog übernimmt und im kommenden Sprint umsetzen will. Die Anforderungen werden schlussendlich in Tasks herrunter gebrochen.
-3. Sprint & Daily Scrum :: Während des Sprint wird das Sprint Backlog und die daraus resultierenden Tasks abgearbeitet. Integraler bestandteil des Sprint ist das Daily Scrum, ein tägliches, sehr kurzes Meeting, in welchem jedes Mitglied des Teams mitteilt, was er gemacht hat, was er machen wird und welche Probleme es gibt, um das Team auf einen einheitliche Stand zu bringen. Der Sprint wird vom Scrum Master betreut. Er sorgt dafür, das die Scrum Regeln eingehalten werden und das das Team möglichst Barrierefrei arbeiten kann.
-4. Sprint Review :: Im Sprint Review wird das Inkrement, das Zwischenergebnisse, vom Product Owner, gegebenen falls in zusammenarbeit mit Kunden, gegen die Anforderungen aus dem Product Backlog geprüft. Der Product Owner nutzt das Review zudem um das Backlog zu aktualisiern und als Startpunkt für das nächste Sprint Planing verfügbar zu machen.
-5. Sprint Retroperspective :: Im letzten Meeting vor dem Prozessneustart setzten sich Team, Scrum Master und evtl. auch der Product Owner zusammen um zu besprechen, an welchen stellen der nächste Sprint verbessert werden kann.
++ Product Backlog :: Der Product Owner bildet eine Schnittstelle zwischen dem Team und dem Kunden. Er initiiert das Product Backlog, indem er, auch in zusammenarbeit mit den Stakeholdern (Kunden, Investoren, dem Team, etc.), einen ersten Lösungsversuch definiert.
++ Sprint Planning & Sprint Backlog :: Bevor der Sprint gestartet wird,muss der Sprint geplant werden. Dafür wird vom Productowner der Product Backlog vorgestellt. Das Team entscheidet selbständig, welche und wieviele Anforderungen sie in Ihren Sprint Backlog übernimmt und im kommenden Sprint umsetzen will. Die Anforderungen werden schlussendlich in Tasks herrunter gebrochen.
++ Sprint & Daily Scrum :: Während des Sprint wird das Sprint Backlog und die daraus resultierenden Tasks abgearbeitet. Integraler bestandteil des Sprint ist das Daily Scrum, ein tägliches, sehr kurzes Meeting, in welchem jedes Mitglied des Teams mitteilt, was er gemacht hat, was er machen wird und welche Probleme es gibt, um das Team auf einen einheitliche Stand zu bringen. Der Sprint wird vom Scrum Master betreut. Er sorgt dafür, das die Scrum Regeln eingehalten werden und das das Team möglichst Barrierefrei arbeiten kann.
++ Sprint Review :: Im Sprint Review wird das Inkrement, das Zwischenergebnisse, vom Product Owner, gegebenen falls in zusammenarbeit mit Kunden, gegen die Anforderungen aus dem Product Backlog geprüft. Der Product Owner nutzt das Review zudem um das Backlog zu aktualisiern und als Startpunkt für das nächste Sprint Planing verfügbar zu machen.
++ Sprint Retroperspective :: Im letzten Meeting vor dem Prozessneustart setzten sich Team, Scrum Master und evtl. auch der Product Owner zusammen um zu besprechen, an welchen stellen der nächste Sprint verbessert werden kann.
 
 + Scrum hat die Rollen Product Owner, Scrum Master und Team.
 + Ein Sprint dauert zwischen einer und vier Wochen.
@@ -161,7 +161,8 @@ Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansa
 + Der Product Backlog ist eine organisierte Übersicht über die Anforderungen an das Produkt.
 + Der Scrum Master unterstützt das Team, sodass es ungestört arbeiten kann.
 + Das Team besteht aus min. 3 Personen und sollte max. 10 Personen haben.
-+ Das sollte aus verschiedensten Experten bestehen.
++ Die Scrum Mannschaft sollte aus min. 5 und max. 12 Personen bestehen
++ Das Team sollte aus verschiedensten Experten bestehen.
 + Über das Daily Scrum wird das Team auf einen einheitlichen Informationsstand gesetzt.
 + Stakeholder können jederzeit in den Prozess eingebunden werden.
 
@@ -171,24 +172,7 @@ Ein Prozess ist der Verlauf eines Projekts über einen bestimmten Zeitraum. Der 
 * Qualitätsmanagment
 Produkte und dazugehörige Dienstleistungen haben eine bestimmte Qualität. Anhand der Qualität kann man bestimmen, in wie weit die inhärenten Merkmale eines Produkt die Anforderungen erfüllen. Das Qualitätsmanagment überwacht und verbessert die Prozesse und organisatorische Maßnamen innerhalb der Entwicklung und der Dienstleistungen um in diesen ein möglichst hohe Qualität zu erreichen.
 
-Innerhalb eines Unternehmens sollte ein Qualitätsmanagmentsystem eingerichtet sein, welches Rollen und Verantwortlichtekeiten festlegt sowie die Prozesse definiert und dokumentiert. Es gibt verschidene Philosopien, wie ein Qualitätsmanagentsystem auszusehen hat. Beispiele hierfür sind das Total-Quality-Model *TQM* und dessen Weiterentwicklung *EFQM-Modell* (European Foundation for Quality Managment-Modell).
-
-Die Sieben Grundsätze des Qualitätmanagments:
-+ Kundenorientiert
-+ Verantwortlichkeit der Führung
-+ Einbeziehung der beteiligten Personen
-+ Prozessorientierter Ansatz
-+ Kontinuierliche Verbesserung
-+ Sachbezogene Entscheidungsfindung
-+ Lieferantenbeziehungen zum gegenseitigen Nutzen.
-
-Die DIN EN ISO 9000ff definiert ein weltweit einheitlichen Standard für Qualitätsmanagmentsystem. Größtenteils definiert diese Norm Prozesse, Produkte und Dienstleisungen und deren Verbesserung, aber auch den Umgang mit Kunden, Lieferanten und Mitarbeitern. Firmen können die Normerfüllung ihres Qualitätsmanagment durch Auditoren prüfen und zertifizieren lassen.
-
-Normen
-+ DIN :: Deutsch Industrie Norm
-+ EN :: Europäische Norm
-+ ISO :: International Organisation für Normung
-+ ICE :: International Electrotechnical Commission
+Innerhalb eines Unternehmens sollte ein Qualitätsmanagmentsystem eingerichtet sein, welches Rollen und Verantwortlichtekeiten festlegt sowie die Prozesse definiert und dokumentiert. Es gibt verschidene *Philosopien*, wie ein Qualitätsmanagentsystem auszusehen hat. Beispiele hierfür sind das Total-Quality-Model *TQM* und dessen Weiterentwicklung *EFQM-Modell* (European Foundation for Quality Managment-Modell).
 
 + Qualitätsaspekte
   - Philosophien
@@ -207,23 +191,48 @@ Normen
     + Qualitätsplanung :: In der Qualitätsplanung wird anhand des Ist-Zustand die Prozesse(Ablauforganisation) & Strukturen(Aufbauorganisation) gestaltet und der Soll-Zustand definiert. 
     + Qualitätslenkung :: In der Qualitätslenkung werden die in der Qualitätsplanung gestalteten Prozesse umgesetzt.
     + Qualitätsprüfung :: In der Qualitätsprüfung wird ausgewertet, ober der gewünschte Soll-Zustand erreicht wurde. 
-    + Qualitätssicherung :: In der Qualitätssicherung werden aus der Qualitätsplanung, Qualitätslenkung & Qualitätsprüfung gewonnenen Informationen genutz, um die Prozesse und Strukturen zu verbessen. 
-** Qualitätsmanagmentsysteme
-Die Einführung eines Qualitätsmanagmentsysteme passiert in folgenden Schritten
+    + Qualitätssicherung :: In der Qualitätssicherung werden aus der Qualitätsplanung, Qualitätslenkung & Qualitätsprüfung gewonnenen Informationen genutz, um die Prozesse und Strukturen zu verbessen.
+
+** TQM & EFQM
+Total Quality Managment ist eine Philosopie, die unternehmensweit ein Klima der Verbesserung von Prozessen, Strukturen und personellen Fähigkeiten etabliert um Produkte und Dienstleistungen höchster Qualität zu erstellen. Die Unternehmensleitung ist in diesem Ansatz dazu verpflichtet die Qualität durch Zielsetzung und Finanzierung von Personaleinsatz und Schulungen aktiv zu verwalten.
+
+European Foundation Quality Managment ist eine weiterentwickelte dieser Philosopie.
+
+Beide Philosopien wurden durch die Schaffung der Norm DIN EN ISO 9000ff formalisiert und konkretisiert.
+
+** DIN EN ISO 9000ff.
+
++ DIN :: Deutsch Industrie Norm
++ EN :: Europäische Norm
++ ISO :: International Organisation für Normung
+
+Die DIN EN ISO 9000ff definiert ein weltweit einheitlichen Standard für Qualitätsmanagmentsystem. Größtenteils definiert diese *Normfamilie* Prozesse, Produkte und Dienstleisungen und deren Verbesserung, aber auch den Umgang mit Kunden, Lieferanten und Mitarbeitern. Firmen können die Normerfüllung ihres Qualitätsmanagment durch Auditoren prüfen und zertifizieren lassen.
+
+*** DIN EN ISO 9000
+Die DIN EN ISO 9000 definiert alle Begriffe innerhalb der Normfamilie und ist unentbehrlich für das Verständnis
+
+*** DIN EN ISO 9001
+Die DIN EN ISO 9001 definiert die Anforderungen an ein Qualitätsmanagmentsystem sowie die Grundsätze des Qualitätmanagments.
+
+Grundsätze des Qualitätmanagment:
++ Kundenorientierung :: Verständnis der Kundenbedürfnisse. Anforderungen der Kunden verstehen und Bedürfnisse nicht nur erfüllen, sondern übertreffen.
++ Verantwortlichkeit der Führung :: Führungskräfte sind für einheitliche Zielsetzung zuständig und sorgen für Mitarbeitermotivation zur vollen Zielerfüllung. Wichtig, da die Führungskräfte das Mitarbeiterumfeld und somit auch den Erfolg steuern können.
++ Einbeziehung der beteiligten Personen :: Mitarbeiter sind mit der wichtigste Faktor einer Organisation. Ihre Einbeziehung in Entscheidungsprozesse ermöglicht es, ihre Fähigkeiten zum Vorteil zu nutzen.
++ Prozessorientierter Ansatz :: Ziele lassen sich besser bzw. effizienter erreichen, wenn die notwendigen Tätigkeiten und Ressourcen zusammengefasst werden.
++ Systemorientierter Managementansatz :: Die Prozesse, die miteinander in Wechselwirkung stehen, als System erkennen, verstehen und steuern. Dies trägt zur effektiven und effizienten Zielführung bei.
++ Kontinuierliche Verbesserung :: Kontinuierliche Weiterentwicklung und Verbesserung aller Leistungen, als ständige Aufgabe.
++ Sachbezogener Entscheidungsfindungsansatz :: Analyse von Daten zur wirksamen Entscheidungsfindung.
++ Lieferantenbeziehungen zum gegenseitigen Nutzen :: Organisation und Lieferant hängen voneinander ab. Beziehungen erhöhen die Wertschöpfung beider Seiten.
+
+*** DIN EN ISO 9004
+Die DIN EN ISO 9004 stellt einen Leitfaden zur Entwicklung eines Qualitätsmanagmentsysteme auf und betrachtet die Effizienz und Effektivtät von diesen.
 + Ist-Analyse
 + Soll-Konzept
 + QM-Handbuch erstellen
 + Mitarbeiterschulung
 + Interner Audit
 + Externer Audit & Zertifizierung
-** TQM & EFQM
-Total Quality Managment ist eine Philosopie, die unternehmensweit ein Klima der Verbesserung von Prozessen, Strukturen und personellen Fähigkeiten etabliert um Produkte und Dienstleistungen höchster Qualität zu erstellen. Die Unternehmensleitung ist in diesem Ansatz dazu verpflichtet die Qualität durch Zielsetzung und Finanzierung von Personaleinsatz und Schulungen aktiv zu verwalten.
 
-European Foundation Quality Managment ist eine weiterentwickelte dieser Philosopie.
-
-Beide Philosopien werden durch die Schaffung der Norm DIN EN ISO 9000ff überschattet und quasie formalisiert.  
-
-** DIN EN ISO 9000ff.
 ** Softwarequalität
 Software hat folgende Qualitätsmerkmale:
 + Zuverlässigkeit :: Zuverlässigkeit beschreibt wie reif eine Software ist im Bezug auf Fehlertolerenz während der Laufzeit und der Wiederherstellbarkeit der Arbeitsfähigkeit.
