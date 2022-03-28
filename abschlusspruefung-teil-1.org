@@ -144,6 +144,7 @@ Eine Methode ist ein formalisierter, allgemeiner Ablauf, der sich bewährt hat.
 + Crystal
 + Feature Driven Development
 + Scrum
+
 *** Scrum
 Scrum ist die wohl bekannteste agile Methode. Bei Scrum steht ein iterative Ansatz im Vordergrund, der den Entwicklungsprozess in Sprints einteilt. Ein Sprint ist eine Zeiteinheit von min. einer Woche bis max. vier Wochen. Zudem definiert Scrum die drei Rollen Product Owner, Scrum Master und Team, welche verschidene Funktionen innerhalb der Einzelen Phasen einse Sprint inne haben.
 
@@ -251,7 +252,6 @@ Um die Qualität einer Software sicher zu stellen, sind verschidene Tests nötig
 Tests kann man in *White-Box* und *Black Box* Test einteilen. Beim White-Box Test sind dem Tester die Funktion sowie deren Implementation bekannt, beim Black-Box Test sind dem Tester die inneren Abläufe nicht bekannt.
 
 ** Barrierefreiheit
-*** Barrierefreiheit
 Das *Behindertengleichstellungsgesetzt* und die daraus folgenden *Barrierefreie-Informationstechnik-Verordnung - BITV 2.0* hat zum Ziel, das moderne Informations- und Kommunikations-System grundsätzlich barrierefrei gestaltet werden. Im IT-Bereich bedeutet Barrierefreiheit, dass Betriebssystem, Anwendungen und Websites auch von Menschen mit körperlichen Einschränkungen bedient werden können. Maßnahmen hierfür sind:
 + Strukturierung und Aussagekräftige Überschriften 
 + Navigierbarkeit ohne Maus
@@ -360,13 +360,14 @@ OpenPGP (Pretty Goog Privace) ist eine offener, sehr sicherer Standard für die 
   - Nachteil
     + Hoher Wiederherstellungsaufwand (F+n*I)
  
-Backups sollten nach dem Generationenprinzip auch /"Großvater-Vater-Sohn-Prinzip"/ erstellt werden. Es ist ein Rotationsschema das dafür sorgt, dass mehrere Sicherungsstände, am besten auf mehreren Medien, vorhanden sind.
+Backups sollten nach dem Generationenprinzip auch /"Großvater-Vater-Sohn-Prinzip"/ erstellt werden. Es ist ein Rotationsschema das dafür sorgt, dass mehrere Sicherungsstände, am besten auf mehreren Speichermedien, vorhanden sind.
 + Taglich wird ein Sohn-Backup erstellt
-+ Am Wochenende wird ein Vater-Backup erstellt, 
-
-
-
-
++ Am Wochenende wird ein Vater-Backup erstellt
++ In der folgenden Woche werden neue Sohn-Backups erstellt, welche die vorherigen überschreiben
++ Am Wochenende wird ein weiteres Vater-Backup erstellt.
++ Nach vier Wochen wird ein Großvater-Backup erstellt.
++ Nach vier Wochen wird ein neues Vater-Backup erstellt, wobei das erste Vater-Backup überschrieben wird. 
+Optimal für das Generationenprinzip sind 12 Großvater-Speichermedien, 4 Vater-Speichermedien und 6 Sohn-Speichermedien.
 
 Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 + 3 Kopien der Daten :: Neben den Arbeitsdaten sollten zwei Sicherungskopien existieren. Dies schützt vor ungewolltem Löschen.
@@ -388,6 +389,7 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 ** Anwendungssysteme
 ** Prozessoren und Speicher
 ** Datenspeicherung und Ausfallsicherheit
+
 * Software
 ** Einordnung von Programmiersprachen
 ** Pseudocode
@@ -401,6 +403,7 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 ** SQL-Abfragen
 ** Softwareentwicklungsprozess
 ** Debugging
+
 * Netzwerke
 ** OSI-Modell, TCP/IP-Modell & Protokolle
 ** WLAN
@@ -410,6 +413,7 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 ** Netzwerkverkabelung - Kupferkabel
 ** Fehlersuche im Netzwerk
 ** Fernwartung
+
 * Arbeits & Geschäftsprozesse
 ** Das Unternehmen und sein Umfeld
 *** Marktformen
@@ -583,8 +587,54 @@ Das Unternehmensleitbild beschreibt das Selbstverständnis eines Unternhemens. A
 	+ Arbeitsplätze sichern
 	+ Arbeitsbedingungen verbessern
 
-Unternehmensziele können sich ergänzen, untereinander unabhängig sein oder sich wiedersprechen. Ziele müssen dafür priorisiert werden. Diese Priorisirung und die Zielerfüllung muss reglmäßig überprüft werden. Hierfür gibt es eine Reihe von Kennzahlen:
- 
+Unternehmensziele können sich ergänzen, untereinander unabhängig sein oder sich wiedersprechen. Ziele müssen dafür priorisiert werden. Diese Priorisirung und die Zielerfüllung muss reglmäßig überprüft werden.
+
++ Leasing
+	+ Vorteil
+		+ Geringer Kapitalbedarf zum Anschaffungszeitpunkt
+		+ Kreditrahmen des Unternehmen wird nicht belastet
+		+ klare Kalkulationsbedingungen
+	- Nachteil
+		- Kein Eigentum
+		- Vorzeitige Vertragskündigung nicht nöglich
++ Kredit
+	+ Vorteil
+		+ Eigentum
+		+ Geringere Gesamtkosten
+	- Nachteil
+		- Kreditrahmen wird belastet
+		- Hoher Kapitalbedarf zum Anschaffungszeitpunkt
+
 ** Prozesse im Unternehmen - der Beschaffungsprozess
+Einen Prozess als eine Abfolge von einzelnen Schritten, der eine Eingabe in ein definiertes Ergebnis umwandelt.
+
+*** Wertschöpfungskettendiagramm WKD
+Ein Modelltyp zur groben Beschreibung von grundlegenden Abläufen. Dieses Modell besteht aus einem überschaubaren Symbolvorrat, der auf verschiedene Weise variiert werden kann.
++ Kernprozesse :: Diese Prozesse haben immer einen wertschöpfenden Charakter. Ein weiterer erklärender Ansatz ist die Erfüllung des Kundenwunsches. Kernprozesse eines Heizungsherrstellers sind demnach die Produktion von Heizungsanlagen.
++ Unterstützungsprozesse :: Unterstützungsprozesse (Supportprozesse) bezeichnen betriebliche Prozesse, die den Kernprozess unterstützen. Typischerweise haben sie keinen Kundennutzen und erwirtschaften auch nicht unmittelbar Erlöse. Der Kunde wäre also nicht bereit, für diese Art von Prozess Geld zu bezahlen. Vertreter dieser Kategorie sind z. B. Prozesse der Buchhaltung
++ Managementprozesse :: Diese Prozesse planen, steuern und überwachen Kernprozesse in Unternehmen. Zu den Managementprozessen zählen beispielsweise die Festlegung von Zielen, Personalführung, Qualitätsmanagement, Projektmanagement, Risikomanagement oder das Finanzmanagement.
+
+**** Was heißt eigentlich Wertschöpfung?
+Beim durchlaufen der Kernprozesse wächst der Wert einer Ware oder Dienstleistung durch die *Leistungserstellung*(Produktion, Veredelung, Lagerung, Personaleinstatz, etc.) Dieser Wertezuwachs wird im Verkaufspreis durch den Gewinnzuschlag berücksichtigt
+
+*** Ereignisgesteuerte Prozesskette EPK
+Ein weiters Model zur Beschreibung von Abläufen. Es ist vom Zeichensatz etwas umfangreicher als das Wertschöpfungskettendiagramm, aber immer noch einfach genug um Geschäftsprozesse abzubilden. Wesentlich ist, das in der ereignisgesteuerte Prozesskette, Entscheidungen dargestellt werden können.
++ Ereignis :: Zustände, in denen sich ein Prozess findet. Ereignisse werden als rote Sechsecke dargestellt und mit der Objekte-Verb-Methode beschrifftet. Das Verb steht im Perfekt.
++ Funktion :: Eine Aktivität, welche einen Zustand verändert. Funktionen werden als grüne Vierecke mit abgerundeten Ecken dargestellt und mit der Objekte-Verb-Methode beschrifftet. Das Verb steht im Präsens.
++ Kante :: Verbindet Ereignisse und Funktionen miteinander gibt die Richtung an, die abgearbeitet wird
++ Die Konnektoren *XOR*, *OR* und *AND*
+
 ** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
-** Auftragseingangprozesse im Unternehmen und Preisbildung
++ Rechtsfähigkeit :: Die Rechtsfähigkeit bei natürlichen Personen beginnt mit der Geburt und endet mit dem Tod, bei juristischen Personen bei der Gründung und der Auflösung respektive. Mit der Rechtsfähigkeit bekommt eine Person Rechte und Pflichten.
++ Geschäftsfähigkeit :: Rechtsgeschäfte können Rechtswirksam abgeschlossen werden.
+	+ 0-6 Jahre :: Geschäftsunfähig
+	+ 7-17 Jahre :: beschränkt Geschäftsfähig
+	+ ab 18 Jahren :: voll Geschäftsfähig
+
+||Anfrage|Angebot|Anpreisung|
+|-+-+-+-|
+|Formvorschrift|Formfrei|Formfrei|Formfrei|
+|Zielgruppe|pot. Lieferanten|pot. Kunden|Allgemeinheit|
+|Rechtliche Wirkung|Unverbindlich|Verbindlich|Unverbindlich|
+
+Ein Angebot enthält neben den Formalia (Adresse, Datum, etc.) Art und Menge der Ware, Preis, Beschaffenheit der Wahre, Lieferkosten und Lieferzeit. Durch Freizeichnungsklauseln kann die Verbindlichkeit eines Angebots oder Angebotsbestandteil ausgesetzt werden (Angebot freibleibend, un solange der Vorrat reicht, etc.). Das Angebot gilt als *Antrag* des Verkäufers. Mit der *Annahme* des Käufers wird ein Kaufvertrag abgeschlossen. 
