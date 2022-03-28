@@ -390,6 +390,7 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 ** Prozessoren und Speicher
 ** Datenspeicherung und Ausfallsicherheit
 
+# Hab ich mich nicht drauf vorbereitet, sollte ich können
 * Software
 ** Einordnung von Programmiersprachen
 ** Pseudocode
@@ -622,7 +623,7 @@ Ein weiters Model zur Beschreibung von Abläufen. Es ist vom Zeichensatz etwas u
 + Ereignis :: Zustände, in denen sich ein Prozess findet. Ereignisse werden als rote Sechsecke dargestellt und mit der Objekte-Verb-Methode beschrifftet. Das Verb steht im Perfekt.
 + Funktion :: Eine Aktivität, welche einen Zustand verändert. Funktionen werden als grüne Vierecke mit abgerundeten Ecken dargestellt und mit der Objekte-Verb-Methode beschrifftet. Das Verb steht im Präsens.
 + Kante :: Verbindet Ereignisse und Funktionen miteinander gibt die Richtung an, die abgearbeitet wird
-+ Die Konnektoren *XOR*, *OR* und *AND*
++ Die Konnektoren *XOR*, *OR* und *AND* haben entweder viele Eingänge und einen Ausgang oder aber einen Eingang und viel Ausgänge. Öffende Verzweigungen müssen mit dem gleichen Konnektor wieder geschlossen werden. 
 
 ** Beschaffungs- und Absatz-Prozesse im Unternehmen - rechtliche Hintergründe
 + Rechtsfähigkeit :: Die Rechtsfähigkeit bei natürlichen Personen beginnt mit der Geburt und endet mit dem Tod, bei juristischen Personen bei der Gründung und der Auflösung respektive. Mit der Rechtsfähigkeit bekommt eine Person Rechte und Pflichten.
