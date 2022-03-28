@@ -377,7 +377,7 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 + 0 Off-Line Backup :: Ein Backup sollte offline um es von Angriffen durch Ransomware zu schützen. 
 
 * it-Systeme
-** Beratung von IT-Grundfragen
+
 ** Hardware
 *** Prozessoren und Speicher
 *** Festplatten
@@ -385,8 +385,35 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 **** Schutzmaßnahmen nach DIN VDE 100-410
 *** Betriebssysteme
 *** Schnittstellen
-** Einsatzt von Cloudcomputing
+
+** Cloudcomputing
++ Vorteile
+	+ Gute Skalierbarkeit
+	+ Kostengünstig
+	+ Zugriff auf alle Daten
+	+ Zentralles Backup
+- Nachteile
+	- Abhängig vom Internet
+	- Abhängig vom Cloudanbieter
+	- Datenschutz wird schwierig
+	
+	
++ Infrastructur as a Service (IaaS) :: Clouds bieten Nutzungszugang von virtualisierten Computerhardware-Ressourcen wie Rechnern, Netzen und Speicher. Mit IaaS gestalten sich Nutzer frei ihre eigenen virtuellen Computer-Cluster und sind daher für die Auswahl, die Installation, den Betrieb und das Funktionieren ihrer Software selbst verantwortlich.
++ Plattform as a Service (PaaS) :: Clouds bieten Nutzungszugang von Programmierungs- oder Laufzeitumgebungen mit flexiblen, dynamisch anpassbaren Rechen- und Datenkapazitäten. Mit PaaS entwickeln Nutzer ihre eigenen Software-Anwendungen oder lassen diese hier ausführen, innerhalb einer Softwareumgebung, die vom Dienstanbieter (Service-Provider) bereitgestellt und unterhalten wird.
++ Software as a Service (SaaS) :: Clouds bieten Nutzungszugang von Software-Sammlungen und Anwendungsprogrammen. SaaS-Diensteanbieter offerieren spezielle Auswahlen von Software, die auf ihrer Infrastruktur läuft. SaaS wird auch als Software on demand (Software bei Bedarf) bezeichnet.
+
 ** Virtualisierung
+Virtualisirung bedeute, das durch eine Software eine physische Maschine nachgeahmt wird. Durch diese Technik können meherer Maschinen auf einer echten Maschine laufen.
++ Vorteile
+	+ Bessere Auslastung von Systemressourcen
+	+ Wenige physische Server notwendig
+	+ Server können schnell bereit gestellt werden
+- Nachteile
+	- Fällt der physische Server aus, fallen alle virtuellen Maschinen aus
+	- Geteilte Systemressourcen können überlastet werden
+Virtualisirung gibt es in zwei Arten *Bare-Metal* und *Hosted*. Bei Bare-Metal setzt der Hipervisor direkt auf der Hardware auf und ersetzt das Betriebssystem. Die Systemressourcen werden besonders effizent genutzt und mehrere virtuelle Maschinen können betrieben werden. Bei der Hosted Variante läuft die Virtualisirung als Anwendung auf einem Betriebssystem und ist ehr im privaten Bereich zu finden.
+
+Von virtuellen Maschinen können Snapshots erstellt werden. In einem Snapshot wird der Zustand einer Virtuellen Maschine komplett gespeichert (Status, Konfiguration, Speicherbelegung) und kann dafür genutz werden um die Maschine wieder neu zu starten.
 ** Industrie 4.0
 ** Anwendungssysteme
 ** RAID
@@ -394,10 +421,10 @@ RAID steht für *Redundant Array of independent Disks" und beschreibt ein System
 
 ||RAID 0|RAID 1|RAID 5|
 |-+-+-+-|
-|Kurzbeschreibung|Geschwindigkeitserhöhung durch paralleles Zusammenschalten der Platten|Maximale Ausfallsicherheit durch Spiegelung der Daten auf jede Platte|Kombination von RAID 0 & 1|
-|Kapazitätsberechnung|Summe alle Platte|Die kleinste Platte bestimmt die gesammte Kapazität des Systems|Kapazität der Kleinsten Platte mal die Anzahl der Platten minus 1|
-|Redundanz|nein|ja|ja|
-|Ausfallsicherheit|Gering|Hoch|Mittel|
+|*Kurzbeschreibung*|Geschwindigkeitserhöhung durch paralleles Zusammenschalten der Platten|Maximale Ausfallsicherheit durch Spiegelung der Daten auf jede Platte|Kombination von RAID 0 & 1|
+|*Kapazitätsberechnung*|Summe alle Platte|Die kleinste Platte bestimmt die gesammte Kapazität des Systems|Kapazität der Kleinsten Platte mal die Anzahl der Platten minus 1|
+|*Redundanz*|nein|ja|ja|
+|*Ausfallsicherheit*|Gering|Hoch|Mittel|
 
 
 # Hab ich mich nicht drauf vorbereitet, sollte ich können
@@ -416,12 +443,23 @@ RAID steht für *Redundant Array of independent Disks" und beschreibt ein System
 ** Debugging
 
 * Netzwerke
-** OSI-Modell, TCP/IP-Modell & Protokolle
+** OSI-Modell, TCP/IP-Modell
+Das OSI-Model teilt die Kommunikation über ein Netzwerk auf in mehrere Schichten. Jede Schicht ist so für eine bestimmte Aufgbe zuständig und definiert Schnittstellen zu seinen umligenden Schichten. Dadurch wird die Komplexität reduziert und die Modularisirung erhöht.
+
+|Layer|OSI|TCP/IP|Protokoll|
+|-+-+-+-|
+|1.|Physical|Netzzugriff||
+|2.|Data Link|Netzzugriff|Ethernet, WLAN|
+|3.|Network|Internet|IP|
+|4.|Transport|Transport|TCP, UDP|
+|5.|Session|Anwendung||
+|6.|Presentation|Anwendung||
+|7.|Application|Anwendung||
+
 ** WLAN
 ** Verkabelung
 ** Konfiguration von IP-Adressen
 ** IPv6
-
 ** Fehlersuche im Netzwerk
 ** Fernwartung
 
