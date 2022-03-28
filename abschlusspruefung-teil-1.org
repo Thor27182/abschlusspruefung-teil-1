@@ -1,6 +1,7 @@
 #+TITLE: Teil 1 der gestreckten Abschlussprüfung "Einrichten eines IT-gestützten Arbeitsplatz"
 #+OPTION: toc=nil
 
+[[https://orgmode.org/org.html][Manual]]
 * Projektmanagment
 Ein Projekt ist ein einmaliges Vorhaben mit einem definiertem Ziel über einen festgelegten Zeitraum.
 
@@ -376,19 +377,28 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 + 0 Off-Line Backup :: Ein Backup sollte offline um es von Angriffen durch Ransomware zu schützen. 
 
 * it-Systeme
-** Konzeption einer IT-Ausstattung
-** Installation von Hardware
 ** Beratung von IT-Grundfragen
-** Beratung zu Dateiformaten und Codes
+** Hardware
+*** Prozessoren und Speicher
+*** Festplatten
+*** Stromversorgung
+**** Schutzmaßnahmen nach DIN VDE 100-410
+*** Betriebssysteme
+*** Schnittstellen
 ** Einsatzt von Cloudcomputing
 ** Virtualisierung
-** Schutzmaßnahmen nach DIN VDE 100-410
-** Betriebssysteme
-** Schnittstellen
 ** Industrie 4.0
 ** Anwendungssysteme
-** Prozessoren und Speicher
-** Datenspeicherung und Ausfallsicherheit
+** RAID
+RAID steht für *Redundant Array of independent Disks" und beschreibt ein System aus verbundenen Festplatten, das dazu dient, die Verfügbarkeit zu erhöhen. Dies geschied durch Erhöhung der Schreibgeschwindigkeit sowie die Erhöhung der Ausfallsicherheit durch Redundante Daten, wodurch Platten im laufenden Betrieb gewechselt werden können. RAID ist aber explizit kein Backup.
+
+||RAID 0|RAID 1|RAID 5|
+|-+-+-+-|
+|Kurzbeschreibung|Geschwindigkeitserhöhung durch paralleles Zusammenschalten der Platten|Maximale Ausfallsicherheit durch Spiegelung der Daten auf jede Platte|Kombination von RAID 0 & 1|
+|Kapazitätsberechnung|Summe alle Platte|Die kleinste Platte bestimmt die gesammte Kapazität des Systems|Kapazität der Kleinsten Platte mal die Anzahl der Platten minus 1|
+|Redundanz|nein|ja|ja|
+|Ausfallsicherheit|Gering|Hoch|Mittel|
+
 
 # Hab ich mich nicht drauf vorbereitet, sollte ich können
 * Software
@@ -408,10 +418,10 @@ Zudem sollten Backups nach der 3-2-1-0 Regel erstellt werden:
 * Netzwerke
 ** OSI-Modell, TCP/IP-Modell & Protokolle
 ** WLAN
-** Gebäudeverkabelung
+** Verkabelung
 ** Konfiguration von IP-Adressen
 ** IPv6
-** Netzwerkverkabelung - Kupferkabel
+
 ** Fehlersuche im Netzwerk
 ** Fernwartung
 
@@ -634,8 +644,8 @@ Ein weiters Model zur Beschreibung von Abläufen. Es ist vom Zeichensatz etwas u
 
 ||Anfrage|Angebot|Anpreisung|
 |-+-+-+-|
-|Formvorschrift|Formfrei|Formfrei|Formfrei|
-|Zielgruppe|pot. Lieferanten|pot. Kunden|Allgemeinheit|
-|Rechtliche Wirkung|Unverbindlich|Verbindlich|Unverbindlich|
+|*Formvorschrift*|Formfrei|Formfrei|Formfrei|
+|*Zielgruppe*|pot. Lieferanten|pot. Kunden|Allgemeinheit|
+|*Rechtliche Wirkung*|Unverbindlich|Verbindlich|Unverbindlich|
 
 Ein Angebot enthält neben den Formalia (Adresse, Datum, etc.) Art und Menge der Ware, Preis, Beschaffenheit der Wahre, Lieferkosten und Lieferzeit. Durch Freizeichnungsklauseln kann die Verbindlichkeit eines Angebots oder Angebotsbestandteil ausgesetzt werden (Angebot freibleibend, un solange der Vorrat reicht, etc.). Das Angebot gilt als *Antrag* des Verkäufers. Mit der *Annahme* des Käufers wird ein Kaufvertrag abgeschlossen. 
